@@ -7,12 +7,14 @@ const rateLimit = require('express-rate-limit');
 const path = require('path');
 const connectDB = require('./config/db');
 const config = require('./config/main');
-const mongoose = require('mongoose');
 const addressRoutes = require('./routes/address');
 const fs = require('fs');
 
 // Initialize Express app
 const app = express();
+
+// Trust proxy for rate limiting
+app.set('trust proxy', 1);
 
 // Connect to MongoDB
 connectDB(config.mongoURL);
