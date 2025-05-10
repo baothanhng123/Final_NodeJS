@@ -1,0 +1,85 @@
+.popular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: auto;
+    /* Thay đổi từ 90vh để nội dung tự điều chỉnh chiều cao */
+    margin-bottom: 100px;
+    /* Điều chỉnh khoảng cách dưới cùng nếu cần */
+}
+
+.popular h1 {
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.popular hr {
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+    margin-bottom: 30px;
+}
+
+.popular-item {
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    /* Đảm bảo bộ sưu tập cũng chiếm hết chiều ngang nếu cần */
+    max-width: 1200px;
+    /* Ví dụ: giới hạn chiều rộng tối đa của bộ sưu tập */
+    flex-wrap: wrap;
+    /* Cho phép các item xuống hàng khi không đủ chỗ */
+    justify-content: center;
+    /* Căn giữa các item trên hàng */
+    margin-bottom: 30px;
+    /* Thêm khoảng cách giữa danh sách sản phẩm và grid ảnh */
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Tạo 2 cột bằng nhau */
+    grid-template-rows: auto auto;
+    /* Tạo 2 hàng tự động điều chỉnh chiều cao */
+    gap: 30px;
+    /* Tăng khoảng cách giữa các ô grid để ảnh có không gian hơn */
+    width: 90%;
+    /* Tăng chiều rộng của grid ảnh (điều chỉnh theo ý muốn) */
+    max-width: 1000px;
+    /* Tăng chiều rộng tối đa của grid ảnh (điều chỉnh theo ý muốn) */
+}
+
+.image-grid .grid-item {
+    /* Bạn có thể thêm стили chung cho mỗi ô grid nếu cần */
+}
+
+.image-grid .grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    /* Tăng bo tròn góc nếu muốn */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Tăng độ đậm của bóng đổ nếu muốn */
+}
+
+.bottom-banner {
+    width: 100%;
+    margin-top: 50px;
+    /* Điều chỉnh khoảng cách phía trên banner nếu cần */
+}
+
+.bottom-banner img {
+    width: 100%;
+    height: auto;
+    /* Đảm bảo tỷ lệ khung hình được giữ nguyên */
+    max-height: 300px;
+    /* Thêm hoặc điều chỉnh chiều cao tối đa */
+    display: block;
+    object-fit: cover;
+}

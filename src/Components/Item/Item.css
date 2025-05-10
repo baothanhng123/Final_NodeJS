@@ -1,0 +1,99 @@
+.product-list {
+    display: flex;
+    gap: 5px;
+    /* Thử một giá trị nhỏ hơn hoặc 0 */
+    padding: 20px;
+    overflow-x: auto;
+}
+
+.item {
+    /* Reusing your existing .item class, adjusting for this layout */
+    width: 280px;
+    /* Adjust width as needed to fit the iPhone card layout */
+    border: 1px solid #f0f0f0;
+    /* Light border to match the image */
+    border-radius: 10px;
+    /* Rounded corners like the image */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    /* Subtle shadow */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    /* Space below the image */
+}
+
+.item h3 {
+    /* Assuming you're using <h3> for the iPhone name */
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.prices {
+    display: flex;
+    flex-direction: column;
+    /* Stack prices vertically as in the image */
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.new-price {
+    color: #222;
+    /* Darker color for the main price */
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.old-price {
+    color: #777;
+    font-size: 0.9em;
+    text-decoration: line-through;
+    margin-top: 5px;
+    /* Space between new and old price */
+}
+
+.item button {
+    padding: 10px 20px;
+    border: none;
+    /* Remove button borders */
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.95em;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    /* Space between buttons */
+    width: 80%;
+    /* Adjust button width */
+}
+
+.view-more {
+    /* "Tìm hiểu thêm" button */
+    background-color: #e0f7fa;
+    /* Light blue background */
+    color: #00bcd4;
+    /* Teal text */
+}
+
+.view-more:hover {
+    background-color: #b2ebf2;
+}
+
+.buy-button {
+    /* "Mua >" button */
+    background-color: #1976d2;
+    /* Blue background */
+    color: white;
+}
+
+.buy-button:hover {
+    background-color: #1565c0;
+}
