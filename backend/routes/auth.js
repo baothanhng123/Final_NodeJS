@@ -104,6 +104,7 @@ router.post('/login', [
         id: user.id,
         name: user.fullname,
         email: user.email,
+        role: user.role,
         profileImage: user.profileImage,
         addresses: user.addresses,
         authType: user.authType

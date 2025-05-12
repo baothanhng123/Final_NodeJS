@@ -41,11 +41,15 @@ const userSchema = new mongoose.Schema({
   },
   authType: {
     type: String,
-    enum: ['local', 'google', 'facebook'],
+    enum: ['local', 'google'],
     default: 'local'
   },
+  role: {
+    type: String,
+    enum: ['user', 'admin'],
+    default: 'user'
+  },
   googleId: String,
-  facebookId: String,
   resetPasswordToken: String,
   resetPasswordExpires: Date,
   createdAt: {

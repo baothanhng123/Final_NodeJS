@@ -9,6 +9,8 @@ const connectDB = require('./config/db');
 const config = require('./config/main');
 const addressRoutes = require('./routes/address');
 const fs = require('fs');
+const User = require('./models/User');
+
 
 // Initialize Express app
 const app = express();
@@ -18,6 +20,30 @@ app.set('trust proxy', 1);
 
 // Connect to MongoDB
 connectDB(config.mongoURL);
+
+// Tạo tài khoản admin mặc định nếu chưa có
+(async () => {
+  try {
+    const adminEmail = 'admin@gmail.com';
+    const adminPassword = '123456';
+    const admin = await User.findOne({ email: adminEmail });
+    if (!admin) {
+      await User.create({
+        email: adminEmail,
+        fullname: 'Admin',
+        password: adminPassword,
+        role: 'admin',
+        authType: 'local',
+        addresses: [],
+      });
+      console.log('Admin account created: admin@gmail.com / 123456');
+    } else {
+      console.log('Admin account already exists');
+    }
+  } catch (err) {
+    console.error('Error creating admin account:', err);
+  }
+})();
 
 // Middleware
 app.use(express.json());
@@ -48,7 +74,7 @@ const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
   max: 100 // limit each IP to 100 requests per windowMs
 });
-app.use('/api/', limiter);
+//app.use('/api/', limiter);
 
 // Ensure uploads directory exists
 const uploadsDir = path.join(__dirname, 'uploads');
@@ -62,13 +88,16 @@ if (!fs.existsSync(profileDir)) {
   fs.mkdirSync(profileDir);
 }
 
-// Static files
+// Serve static files in uploads folder
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 // Routes
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/user', require('./routes/user'));
 app.use('/api/addresses', addressRoutes);
+app.use('/api/products', require('./routes/product'));
+app.use('/api/categories', require('./routes/category'));
+app.use('/api/orders', require('./routes/order'));
 
 // Error handling middleware
 app.use((err, req, res, next) => {

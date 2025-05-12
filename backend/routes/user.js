@@ -6,6 +6,7 @@ const User = require('../models/User');
 const multer = require('multer');
 const path = require('path');
 const fs = require('fs');
+const isAdmin = require('../middleware/isAdmin');
 
 // Configure multer for file upload
 const storage = multer.diskStorage({
@@ -129,6 +130,75 @@ router.post('/account/image', auth, upload.single('profileImage'), async (req, r
     });
   } catch (error) {
     console.error('Upload profile image error:', error);
+    res.status(500).json({ message: 'Lỗi máy chủ' });
+  }
+});
+
+// Lấy danh sách tất cả user (chỉ cho admin)
+router.get('/', auth, isAdmin, async (req, res) => {
+  try {
+    const users = await User.find().select('-password');
+    res.json(users);
+  } catch (error) {
+    res.status(500).json({ message: 'Lỗi máy chủ' });
+  }
+});
+
+// Xóa user (chỉ cho admin)
+router.delete('/:id', auth, isAdmin, async (req, res) => {
+  try {
+    const user = await User.findByIdAndDelete(req.params.id);
+    if (!user) return res.status(404).json({ message: 'User not found' });
+    res.json({ message: 'User deleted' });
+  } catch (error) {
+    res.status(500).json({ message: 'Server error' });
+  }
+});
+
+// Thêm user mới (chỉ cho admin)
+router.post('/', auth, isAdmin, async (req, res) => {
+  try {
+    const { fullname, email, phone, role, password } = req.body;
+    if (!fullname || !email || !password) {
+      return res.status(400).json({ message: 'Missing required fields' });
+    }
+    const existing = await User.findOne({ email });
+    if (existing) return res.status(400).json({ message: 'Email already exists' });
+    const user = new User({ fullname, email, phone, role, password });
+    await user.save();
+    res.status(201).json(user);
+  } catch (error) {
+    res.status(500).json({ message: 'Server error' });
+  }
+});
+
+// Sửa user (chỉ cho admin)
+router.put('/:id', auth, isAdmin, async (req, res) => {
+  try {
+    const { fullname, email, phone, role, password } = req.body;
+    const user = await User.findById(req.params.id);
+    if (!user) return res.status(404).json({ message: 'User not found' });
+    if (fullname) user.fullname = fullname;
+    if (email) user.email = email;
+    if (phone) user.phone = phone;
+    if (role) user.role = role;
+    if (password) user.password = password;
+    await user.save();
+    res.json(user);
+  } catch (error) {
+    res.status(500).json({ message: 'Server error' });
+  }
+});
+
+// Cập nhật ảnh cho user bất kỳ (chỉ admin)
+router.post('/:id/image', auth, isAdmin, upload.single('profileImage'), async (req, res) => {
+  try {
+    const user = await User.findById(req.params.id);
+    if (!user) return res.status(404).json({ message: 'User not found' });
+    user.profileImage = `/uploads/profile/${req.file.filename}`;
+    await user.save();
+    res.json({ message: 'Cập nhật ảnh thành công', profileImage: user.profileImage });
+  } catch (error) {
     res.status(500).json({ message: 'Lỗi máy chủ' });
   }
 });

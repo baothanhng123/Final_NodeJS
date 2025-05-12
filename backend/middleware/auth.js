@@ -1,7 +1,8 @@
 const jwt = require('jsonwebtoken');
 const config = require('../config/main');
+const User = require('../models/User');
 
-module.exports = (req, res, next) => {
+module.exports = async function(req, res, next) {
   // Get token from header
   const authHeader = req.header('Authorization');
   
@@ -20,9 +21,9 @@ module.exports = (req, res, next) => {
   try {
     // Verify token
     const decoded = jwt.verify(token, config.jwtSecret);
-    
-    // Add user from payload
-    req.user = decoded.user;
+    const user = await User.findById(decoded.user.id);
+    if (!user) return res.status(401).json({ message: 'Unauthorized' });
+    req.user = user;
     next();
   } catch (err) {
     res.status(401).json({ message: 'Token không hợp lệ hoặc đã hết hạn' });
