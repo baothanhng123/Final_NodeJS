@@ -764,7 +764,7 @@ let all_product = [
   },
   {
     id: 90,
-    name: "ntel Core i5 Processor (13th Gen).",
+    name: "Intel Core i5 Processor (13th Gen).",
     category: "cpu",
     image: p90_img,
     new_price: 1310.0
