@@ -7,21 +7,17 @@ const ShopContextProvider = (props) => {
     const [all_product, setAllProduct] = useState([]);
     const { token } = useAuth();
     useEffect(() => {
-    if (!token) return; // skip if no token
-
-    const fetchProducts = async () => {
-        try {
-            const res = await axios.get("/api/products", {
-                headers: { Authorization: `Bearer ${token}` }
-            });
-            setAllProduct(res.data);
-        } catch (error) {
-            console.error("Failed to fetch products:", error.response?.data || error.message);
-        }
-    };
-
-    fetchProducts();
-}, [token]);
+        // Always fetch products, even if not logged in
+        const fetchProducts = async () => {
+            try {
+                const res = await axios.get("/api/products", token ? { headers: { Authorization: `Bearer ${token}` } } : {});
+                setAllProduct(res.data);
+            } catch (error) {
+                console.error("Failed to fetch products:", error.response?.data || error.message);
+            }
+        };
+        fetchProducts();
+    }, [token]);
 
     const contextValue = { all_product };
 
