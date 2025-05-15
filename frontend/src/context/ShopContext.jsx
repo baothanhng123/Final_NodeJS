@@ -14,8 +14,15 @@ const ShopContextProvider = (props) => {
             const res = await axios.get("/api/products", {
                 headers: { Authorization: `Bearer ${token}` }
             });
-            setAllProduct(res.data);
+            if (Array.isArray(res.data.products)) {
+                setAllProduct(res.data.products);
+            } else if (Array.isArray(res.data)) {
+                setAllProduct(res.data);
+            } else {
+                setAllProduct([]);
+            }
         } catch (error) {
+            setAllProduct([]);
             console.error("Failed to fetch products:", error.response?.data || error.message);
         }
     };

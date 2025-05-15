@@ -98,6 +98,7 @@ app.use('/api/addresses', addressRoutes);
 app.use('/api/products', require('./routes/product'));
 app.use('/api/categories', require('./routes/category'));
 app.use('/api/orders', require('./routes/order'));
+app.use('/api/dashboard', require('./routes/dashboard'));
 
 // Error handling middleware
 app.use((err, req, res, next) => {
@@ -109,4 +110,4 @@ app.use((err, req, res, next) => {
 const PORT = config.port;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
-}); 
+});
