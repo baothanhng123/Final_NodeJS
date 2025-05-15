@@ -140,7 +140,7 @@ import p138_img from "./product_138.png";
 let all_product = [
   {
     id: 1,
-    name: "Acer Screen  ",
+    name: "Acer Screen",
     category: "monitor",
     image: p1_img,
     new_price: 2000.0,
@@ -149,7 +149,7 @@ let all_product = [
   {
     id: 2,
     name: "VGA RTX 3060",
-    category: "hardcore",
+    category: "hardrive",
     image: p2_img,
     new_price: 750.0
   },

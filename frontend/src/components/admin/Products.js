@@ -19,7 +19,7 @@ export default function Products() {
       const res = await axios.get("/api/products", { headers: { Authorization: `Bearer ${token}` } });
       setProducts(res.data);
     } catch (err) {
-      // eslint-disable-next-line
+      // eslint-disable-next-line 
       console.log(err);
     }
     setLoading(false);

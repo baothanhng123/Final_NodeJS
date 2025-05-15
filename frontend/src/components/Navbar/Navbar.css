@@ -5,6 +5,11 @@
     box-shadow: 0 1px 3px -2px black;
 }
 
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
 .nav-logo {
     display: flex;
     align-items: center;

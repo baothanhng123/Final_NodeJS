@@ -24,6 +24,7 @@ exports.createProduct = async (req, res) => {
     const product = new Product(req.body);
     await product.save();
     res.status(201).json(product);
+    console.log('Product created:', product);
   } catch (err) {
     res.status(400).json({ message: err.message });
   }
@@ -34,6 +35,7 @@ exports.updateProduct = async (req, res) => {
     const product = await Product.findByIdAndUpdate(req.params.id, req.body, { new: true });
     if (!product) return res.status(404).json({ message: 'Product not found' });
     res.json(product);
+    //console.log('Product updated:', product);
   } catch (err) {
     res.status(400).json({ message: err.message });
   }

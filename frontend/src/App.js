@@ -20,6 +20,7 @@ import Products from "./components/admin/Products";
 import Categories from "./components/admin/Categories";
 import Orders from "./components/admin/Orders";
 import OrderDetails from "./components/admin/OrderDetails";
+import ProductDetail from './pages/ProductDetail';
 import './App.css';
 
 // Create a wrapper component to handle the sidebar visibility
@@ -72,7 +73,7 @@ const AppContent = () => {
             <Route path='/case' element={<ShopCategory category="case" />} />
             <Route path='/power' element={<ShopCategory category="power" />} />
             <Route path='/hardrive' element={<ShopCategory category="hardrive" />} />
-              
+            <Route path="/product/:productId" element={<ProductDetail />} />
             {/* Protected routes */}
             <Route
               path="/account"

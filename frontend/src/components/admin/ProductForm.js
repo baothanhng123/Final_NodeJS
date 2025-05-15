@@ -16,7 +16,28 @@ export default function ProductForm({ open, onClose, onSave, initialData, catego
   });
   const [selectedFile, setSelectedFile] = useState(null);
   const [preview, setPreview] = useState("");
-
+  const brands = [
+  "Acer",
+  "ASUS",
+  "Apple",
+  "Intel",
+  "Razer",
+  "Logitech",
+  "NVIDIA",
+  "MSI",
+  "Corsair",
+  "Cooler Master",
+  "Seasonic",
+  "SteelSeries",
+  "ASRock",
+  "Gigabyte",
+  "Generic",
+  "AMD",
+  "Samsung",
+  "Dell",
+  "HP",
+  "Lenovo"
+];
   useEffect(() => {
     if (initialData) {
       setForm(initialData);
@@ -50,7 +71,7 @@ export default function ProductForm({ open, onClose, onSave, initialData, catego
   const handleSubmit = () => {
     onSave(form, selectedFile);
   };
-
+  
   return (
     <Dialog open={open} onClose={onClose}>
       <DialogTitle>{initialData ? "Edit Product" : "Add Product"}</DialogTitle>
@@ -63,7 +84,9 @@ export default function ProductForm({ open, onClose, onSave, initialData, catego
           </Button>
         </Box>
         <TextField label="Name" name="name" value={form.name} onChange={handleChange} fullWidth margin="dense" />
-        <TextField label="Brand" name="brand" value={form.brand} onChange={handleChange} fullWidth margin="dense" />
+        <TextField select label="Brand" name="brand" value={form.brand} onChange={handleChange} fullWidth margin="dense" >
+          {brands.map(brand => <MenuItem key={brand} value={brand}>{brand}</MenuItem>)}
+        </TextField>
         <TextField label="Description" name="description" value={form.description} onChange={handleChange} fullWidth margin="dense" />
         <TextField select label="Category" name="category" value={form.category} onChange={handleChange} fullWidth margin="dense">
           {categories.map(cat => <MenuItem key={cat._id} value={cat.description}>{cat.description}</MenuItem>)}

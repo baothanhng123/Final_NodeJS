@@ -1,9 +1,28 @@
-import React, { createContext } from "react";
-import all_product from "../components/Assets/all_product";
-
+import React, { createContext, useEffect, useState } from "react";
+import axios from "axios";
+import { useAuth } from "./AuthContext";
 export const ShopContext = createContext(null);
 
 const ShopContextProvider = (props) => {
+    const [all_product, setAllProduct] = useState([]);
+    const { token } = useAuth();
+    useEffect(() => {
+    if (!token) return; // skip if no token
+
+    const fetchProducts = async () => {
+        try {
+            const res = await axios.get("/api/products", {
+                headers: { Authorization: `Bearer ${token}` }
+            });
+            setAllProduct(res.data);
+        } catch (error) {
+            console.error("Failed to fetch products:", error.response?.data || error.message);
+        }
+    };
+
+    fetchProducts();
+}, [token]);
+
     const contextValue = { all_product };
 
     return (

@@ -10,7 +10,8 @@ const productSchema = new mongoose.Schema({
   barcode: { type: String, unique: true },
   photo: { type: String, default: '' },
   state: { type: String, enum: ['ACTIVE', 'INACTIVE'], default: 'ACTIVE' },
-  createdAt: { type: Date, default: Date.now }
+  createdAt: { type: Date, default: Date.now },
+  rating: { type: Number, default: 0 }
 });
 
 module.exports = mongoose.model('Product', productSchema);
