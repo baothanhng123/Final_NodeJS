@@ -62,10 +62,7 @@ const ProductDetail = () => {
   const handleCommentSubmit = async (e) => {
     e.preventDefault();
     if (!newComment) return;
-    if (!isAuthenticated) {
-      alert("You must be logged in to comment.");
-      return;
-    }
+    
 
     const username = user?.fullname || user?.username || user?.email || `User${Math.floor(1000 + Math.random() * 9000)}`;
     console.log("Username:", username);
