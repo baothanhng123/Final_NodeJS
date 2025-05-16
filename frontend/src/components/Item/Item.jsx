@@ -26,8 +26,8 @@ const Item = (props) => {
                 )}
             </div>
             <div className="rating">{renderStars(props.rating || 0)}</div> {/* Rating line */}
-            <button className="view-more" onClick={() => navigate(`/product/${props.id}`)}>Tìm hiểu thêm</button> {/* Added a button */}
-            <button className="buy-button">Mua</button> {/* Added a buy button */}
+            <button className="view-more" onClick={() => navigate(`/product/${props.id}`)}>Detail</button> {/* Added a button */}
+            <button className="buy-button">Buy now!</button> {/* Added a buy button */}
         </div>
     );
 };

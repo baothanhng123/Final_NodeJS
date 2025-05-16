@@ -31,6 +31,7 @@ const NewCollections = () => {
             name={item.name}
             image={item.photo}
             new_price={item.price}
+            
             rating={item.rating}
           />
         ))}
