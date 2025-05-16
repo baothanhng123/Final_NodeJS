@@ -87,6 +87,20 @@ exports.getDashboardStats = async (req, res) => {
       },
       {
         $sort: { '_id.year': 1, '_id.month': 1, '_id.day': 1 }
+      },
+      {
+        $project: {
+          _id: 1,
+          date: {
+            $dateFromParts: {
+              'year': '$_id.year',
+              'month': '$_id.month',
+              'day': '$_id.day'
+            }
+          },
+          orders: 1,
+          revenue: 1
+        }
       }
     ]);
 
@@ -145,27 +159,39 @@ exports.getDashboardStats = async (req, res) => {
       },
       { $unwind: '$productDetails' },
       {
-        $group: {
-          _id: '$productDetails.category',
-          totalQuantity: { $sum: '$products.quantity' },
-          totalRevenue: { $sum: { $multiply: ['$products.quantity', '$products.price'] } }
-        }
-      },
-      {
         $lookup: {
           from: 'categories',
-          localField: '_id',
+          localField: 'productDetails.category',
           foreignField: '_id',
           as: 'categoryDetails'
         }
       },
-      { $unwind: '$categoryDetails' },
+      { $unwind: { path: '$categoryDetails', preserveNullAndEmptyArrays: true } },
+      {
+        $group: {
+          _id: {
+            categoryId: '$productDetails.category',
+            categoryName: { $ifNull: ['$categoryDetails.description', 'Uncategorized'] }
+          },
+          quantity: { $sum: '$products.quantity' },
+          revenue: { $sum: { $multiply: ['$products.quantity', '$products.price'] } }
+        }
+      },
       {
         $project: {
-          category: '$categoryDetails.description',
-          quantity: '$totalQuantity',
-          revenue: '$totalRevenue'
+          _id: '$_id.categoryId',
+          category: '$_id.categoryName',
+          quantity: 1,
+          revenue: 1
         }
+      },
+      {
+        $match: {
+          revenue: { $gt: 0 }
+        }
+      },
+      {
+        $sort: { revenue: -1 }
       }
     ]);
 

@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import "./CSS/ShopCategory.css";
 import { ShopContext } from "../context/ShopContext";
 import Item from "../components/Item/Item";
@@ -19,40 +19,58 @@ const ShopCategory = (props) => {
 
   const productsPerPage = 8;
 
-  // Filter
+  // Debug log
+  useEffect(() => {
+    console.log("All Products:", all_product);
+    console.log("Current Category:", category);
+  }, [all_product, category]);  // Filter products
   let filtered_products = all_product
-    .filter((e) => e.category === category)
-    .filter((product) =>
-      product.name.toLowerCase().includes(searchTerm.toLowerCase())
-    )
-    .filter(
-      (product) =>
-        selectedCategory === "all" || product.category === selectedCategory
-    )
-    .filter((product) => {
-      const price = product.price;
-      const min = parseFloat(minPrice);
-      const max = parseFloat(maxPrice);
-      return (isNaN(min) || price >= min) && (isNaN(max) || price <= max);
-    });
+    ? all_product
+        // First filter by main category
+        .filter((product) => {
+          if (!product.category) return false;
+          
+          // Handle both populated and unpopulated category
+          const categoryDesc = typeof product.category === 'object' 
+            ? product.category.description 
+            : product.category;
+            
+          // Case insensitive comparison
+          return categoryDesc.toLowerCase() === category.toLowerCase();
+        })
+        // Then apply search
+        .filter((product) =>
+          !searchTerm ||
+          (product.name && product.name.toLowerCase().includes(searchTerm.toLowerCase()))
+        )
+        // Apply price filter
+        .filter((product) => {
+          if (!minPrice && !maxPrice) return true;
+          const price = product.price;
+          const min = parseFloat(minPrice);
+          const max = parseFloat(maxPrice);
+          return (isNaN(min) || price >= min) && (isNaN(max) || price <= max);
+        })
+    : [];
 
-  // Extract dynamic brands from the above filtered list
+  // Extract available brands from filtered products
   const availableBrands = [
-    ...new Set(
-      filtered_products.map((product) => product.brand).filter(Boolean)
-    ),
+    ...new Set(filtered_products.map((product) => product.brand).filter(Boolean)),
   ];
 
-  // Now filter by brand
-  filtered_products = filtered_products.filter(
-    (product) => selectedBrand === "all" || product.brand === selectedBrand
-  );
+  // Apply brand filter
+  if (selectedBrand !== "all") {
+    filtered_products = filtered_products.filter(
+      (product) => product.brand === selectedBrand
+    );
+  }
 
-  filtered_products = filtered_products.filter((product) => {
-  return (
-    selectedRating === "all" || product.rating >= parseInt(selectedRating)
-  );
-});
+  // Apply rating filter
+  if (selectedRating !== "all") {
+    filtered_products = filtered_products.filter((product) =>
+      product.rating >= parseInt(selectedRating)
+    );
+  }
 
   // Sort
   if (sortOrder === "low-to-high") {
@@ -188,22 +206,22 @@ const ShopCategory = (props) => {
                 </select>
               </div>
               <div className="rating-filter">
-  <label>Rating:</label>
-  <select
-    value={selectedRating}
-    onChange={(e) => {
-      setSelectedRating(e.target.value);
-      setCurrentPage(1);
-    }}
-  >
-    <option value="all">All</option>
-    <option value="5">5★ & up</option>
-    <option value="4">4★ & up</option>
-    <option value="3">3★ & up</option>
-    <option value="2">2★ & up</option>
-    <option value="1">1★ & up</option>
-  </select>
-</div>
+                <label>Rating:</label>
+                <select
+                  value={selectedRating}
+                  onChange={(e) => {
+                    setSelectedRating(e.target.value);
+                    setCurrentPage(1);
+                  }}
+                >
+                  <option value="all">All</option>
+                  <option value="5">5★ & up</option>
+                  <option value="4">4★ & up</option>
+                  <option value="3">3★ & up</option>
+                  <option value="2">2★ & up</option>
+                  <option value="1">1★ & up</option>
+                </select>
+              </div>
 
               {/* Uncomment this if you want to show category filter */}
               {/* <div className="category-filter">
@@ -275,7 +293,6 @@ const ShopCategory = (props) => {
               image={item.photo}
               new_price={item.price}
               rating={item.rating}
-              
             />
           ))
         ) : (

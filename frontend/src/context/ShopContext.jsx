@@ -1,34 +1,29 @@
 import React, { createContext, useEffect, useState } from "react";
 import axios from "axios";
-import { useAuth } from "./AuthContext";
 export const ShopContext = createContext(null);
 
 const ShopContextProvider = (props) => {
     const [all_product, setAllProduct] = useState([]);
-    const { token } = useAuth();
-    useEffect(() => {
-    if (!token) return; // skip if no token
 
-    const fetchProducts = async () => {
-        try {
-            const res = await axios.get("/api/products", {
-                headers: { Authorization: `Bearer ${token}` }
-            });
-            if (Array.isArray(res.data.products)) {
-                setAllProduct(res.data.products);
-            } else if (Array.isArray(res.data)) {
-                setAllProduct(res.data);
-            } else {
+    useEffect(() => {
+        const fetchProducts = async () => {
+            try {
+                const res = await axios.get("/api/products");
+                if (Array.isArray(res.data.products)) {
+                    setAllProduct(res.data.products);
+                } else if (Array.isArray(res.data)) {
+                    setAllProduct(res.data);
+                } else {
+                    setAllProduct([]);
+                }
+            } catch (error) {
+                console.error("Failed to fetch products:", error.response?.data || error.message);
                 setAllProduct([]);
             }
-        } catch (error) {
-            setAllProduct([]);
-            console.error("Failed to fetch products:", error.response?.data || error.message);
-        }
-    };
+        };
 
-    fetchProducts();
-}, [token]);
+        fetchProducts();
+    }, []);
 
     const contextValue = { all_product };
 

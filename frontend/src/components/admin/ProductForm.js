@@ -37,10 +37,14 @@ export default function ProductForm({ open, onClose, onSave, initialData, catego
   "Dell",
   "HP",
   "Lenovo"
-];
-  useEffect(() => {
+];  useEffect(() => {
     if (initialData) {
-      setForm(initialData);
+      // Ensure we use category._id instead of category.description
+      const formData = {
+        ...initialData,
+        category: initialData.category?._id || initialData.category || ""
+      };
+      setForm(formData);
       setPreview(initialData.photo || "");
     } else {
       setForm({
@@ -89,7 +93,7 @@ export default function ProductForm({ open, onClose, onSave, initialData, catego
         </TextField>
         <TextField label="Description" name="description" value={form.description} onChange={handleChange} fullWidth margin="dense" />
         <TextField select label="Category" name="category" value={form.category} onChange={handleChange} fullWidth margin="dense">
-          {categories.map(cat => <MenuItem key={cat._id} value={cat.description}>{cat.description}</MenuItem>)}
+          {categories.map(cat => <MenuItem key={cat._id} value={cat._id}>{cat.description}</MenuItem>)}
         </TextField>
         <TextField label="Quantity" name="quantity" type="number" value={form.quantity} onChange={handleChange} fullWidth margin="dense" />
         <TextField label="Price" name="price" type="number" value={form.price} onChange={handleChange} fullWidth margin="dense" />

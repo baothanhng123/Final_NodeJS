@@ -26,22 +26,40 @@ export default function Products() {
   const fetchProducts = async (pageNum = 1) => {
     setLoading(true);
     try {
-      let url = `/api/products?page=${pageNum}`;
+      const params = new URLSearchParams({
+        page: pageNum.toString()
+      });
+      
       if (searchTerm) {
-        url += `&search=${searchTerm}`;
+        params.append('search', searchTerm);
       }
+      
       if (selectedBrand !== "all") {
-        url += `&brand=${selectedBrand}`;
+        params.append('brand', selectedBrand);
       }
+      
       if (selectedCategory !== "all") {
-        url += `&category=${selectedCategory}`;
+        params.append('category', selectedCategory);
       }
-      url += `&sort=${sortField}&order=${sortOrder}`;
+      
+      if (sortField && sortOrder) {
+        params.append('sort', sortField);
+        params.append('order', sortOrder);
+      }
+      
+      console.log('Fetching products with params:', params.toString());
 
-      const res = await axios.get(url, { headers: { Authorization: `Bearer ${token}` } });
+      const res = await axios.get(`/api/products?${params.toString()}`, {
+        headers: { Authorization: `Bearer ${token}` }
+      });
+      
+      console.log('Products response:', res.data);
+      
       setProducts(Array.isArray(res.data.products) ? res.data.products : []);
       setTotalPages(res.data.totalPages || 1);
-      setPage(res.data.page || 1);
+      if (pageNum !== page) {
+        setPage(pageNum);
+      }
     } catch (err) {
       setProducts([]);
       setTotalPages(1);
@@ -56,9 +74,19 @@ export default function Products() {
     setCategories(res.data);
   };
 
+  // Fetch categories once when component mounts
   useEffect(() => {
-    fetchProducts(page);
     fetchCategories();
+  }, [token]);
+
+  // Fetch products whenever filters change
+  useEffect(() => {
+    // Reset to page 1 when filters change
+    if (page !== 1) {
+      setPage(1);
+      return;
+    }
+    fetchProducts(page);
   }, [token, page, searchTerm, selectedBrand, selectedCategory, sortField, sortOrder]);
 
   const handleDelete = async (id) => {
@@ -131,13 +159,28 @@ export default function Products() {
             <InputLabel>Category</InputLabel>
             <Select
               value={selectedCategory}
-              label="Category"
-              onChange={(e) => setSelectedCategory(e.target.value)}
+              label="Category" 
+              onChange={(e) => {
+                console.log('Selected category:', e.target.value);
+                setSelectedCategory(e.target.value);
+                setPage(1); // Reset to first page when changing category
+              }}
+              MenuProps={{
+                PaperProps: {
+                  style: {
+                    maxHeight: 300
+                  }
+                }
+              }}
             >
               <MenuItem value="all">All Categories</MenuItem>
-              {categories.map(cat => (
-                <MenuItem key={cat._id} value={cat.description}>{cat.description}</MenuItem>
-              ))}
+              {categories
+                .filter(cat => cat.state === 'ACTIVE')
+                .map(cat => (
+                  <MenuItem key={cat._id} value={cat._id}>
+                    {cat.description}
+                  </MenuItem>
+                ))}
             </Select>
           </FormControl>
 
@@ -195,7 +238,7 @@ export default function Products() {
                     <TableCell>{product.name}</TableCell>
                     <TableCell>{product.brand}</TableCell>
                     <TableCell>{product.description}</TableCell>
-                    <TableCell>{product.category}</TableCell>
+                    <TableCell>{product.category?.description}</TableCell>
                     <TableCell>{product.quantity}</TableCell>
                     <TableCell>{product.price}</TableCell>
                     <TableCell>{product.state}</TableCell>

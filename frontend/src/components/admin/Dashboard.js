@@ -136,18 +136,26 @@ export default function Dashboard() {
           <Grid item xs={12}>
             <Paper sx={{ p: 2 }}>
               <Typography variant="h6" gutterBottom>Doanh thu theo thời gian</Typography>
-              <Box sx={{ width: '100%', overflowX: 'auto' }}>
-                <LineChart width={800} height={300} data={stats.timeStats}>
+              <Box sx={{ width: '100%', overflowX: 'auto', minHeight: '400px' }}>
+                <LineChart width={1000} height={400} data={stats.timeStats}>
                   <CartesianGrid strokeDasharray="3 3" />
                   <XAxis 
-                    dataKey="_id" 
-                    tickFormatter={(date) => {
-                      const d = new Date(date.year, date.month - 1, date.day);
-                      return d.toLocaleDateString();
+                    dataKey="date"
+                    tickFormatter={(isoDate) => {
+                      if (!isoDate) return '';
+                      const date = new Date(isoDate);
+                      return date.toLocaleDateString('vi-VN');
                     }}
                   />
                   <YAxis />
-                  <Tooltip />
+                  <Tooltip 
+                    labelFormatter={(label) => {
+                      if (!label) return '';
+                      const date = new Date(label);
+                      return date.toLocaleDateString('vi-VN');
+                    }}
+                    formatter={(value) => `$${value.toLocaleString('en-US', { maximumFractionDigits: 2 })}`}
+                  />
                   <Legend />
                   <Line type="monotone" dataKey="revenue" stroke="#8884d8" name="Doanh thu" />
                   <Line type="monotone" dataKey="orders" stroke="#82ca9d" name="Số đơn hàng" />
@@ -160,12 +168,19 @@ export default function Dashboard() {
           <Grid item xs={12} md={6}>
             <Paper sx={{ p: 2 }}>
               <Typography variant="h6" gutterBottom>Top sản phẩm bán chạy</Typography>
-              <Box sx={{ width: '100%', overflowX: 'auto' }}>
-                <BarChart width={500} height={300} data={stats.topProducts}>
+              <Box sx={{ width: '100%', overflowX: 'auto', minHeight: '400px' }}>
+                <BarChart width={800} height={400} data={stats.topProducts}>
                   <CartesianGrid strokeDasharray="3 3" />
                   <XAxis dataKey="name" />
                   <YAxis />
-                  <Tooltip />
+                  <Tooltip 
+                    formatter={(value, name) => [
+                      name === "revenue" 
+                        ? `$${value.toLocaleString('en-US', { maximumFractionDigits: 2 })}` 
+                        : value.toLocaleString('en-US'),
+                      name === "revenue" ? "Doanh thu" : "Số lượng"
+                    ]}
+                  />
                   <Legend />
                   <Bar dataKey="quantity" fill="#8884d8" name="Số lượng" />
                   <Bar dataKey="revenue" fill="#82ca9d" name="Doanh thu" />
@@ -178,23 +193,40 @@ export default function Dashboard() {
           <Grid item xs={12} md={6}>
             <Paper sx={{ p: 2 }}>
               <Typography variant="h6" gutterBottom>Phân bố theo danh mục</Typography>
-              <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
-                <PieChart width={500} height={300}>
+              <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center', minHeight: '400px' }}>
+                <PieChart width={600} height={400}>
                   <Pie
                     data={stats.categoryStats}
                     dataKey="revenue"
                     nameKey="category"
                     cx="50%"
                     cy="50%"
-                    outerRadius={100}
-                    label
+                    outerRadius={150}
+                    fill="#8884d8"
+                    label={({category, revenue}) => 
+                      `${category} ($${revenue.toLocaleString('en-US', { maximumFractionDigits: 2 })})`
+                    }
                   >
                     {stats.categoryStats.map((entry, index) => (
-                      <Cell key={index} fill={COLORS[index % COLORS.length]} />
+                      <Cell 
+                        key={`cell-${index}`} 
+                        fill={COLORS[index % COLORS.length]}
+                      />
                     ))}
                   </Pie>
-                  <Tooltip />
-                  <Legend />
+                  <Tooltip 
+                    formatter={(value) => `$${value.toLocaleString('en-US', { maximumFractionDigits: 2 })}`}
+                  />
+                  <Legend 
+                    formatter={(value, entry) => {
+                      const revenue = entry.payload.revenue;
+                      const percent = (revenue / stats.summary.totalRevenue) * 100;
+                      return `${value} ($${revenue.toLocaleString('en-US', { maximumFractionDigits: 2 })} - ${percent.toFixed(1)}%)`;
+                    }}
+                    layout="vertical" 
+                    align="right" 
+                    verticalAlign="middle"
+                  />
                 </PieChart>
               </Box>
             </Paper>
