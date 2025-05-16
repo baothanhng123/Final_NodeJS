@@ -6,6 +6,8 @@ const isAdmin = require('../middleware/isAdmin');
 const multer = require('multer');
 const uploadProduct = multer({ dest: 'uploads/product/' });
 
+router.get('/top-rated', productController.getTopRatedProducts);
+router.get('/latest', productController.getLatestProducts);
 router.get('/', productController.getAllProducts);
 router.get('/', auth, isAdmin, productController.getAllProducts);
 router.get('/:id', auth, isAdmin, productController.getProductById);

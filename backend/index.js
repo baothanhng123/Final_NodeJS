@@ -10,10 +10,16 @@ const config = require('./config/main');
 const addressRoutes = require('./routes/address');
 const fs = require('fs');
 const User = require('./models/User');
+const http = require('http');
+const { Server } = require('socket.io');
 
 
 // Initialize Express app
 const app = express();
+const server = http.createServer(app);
+const io = new Server(server, {
+  cors: { origin: '*' }
+});
 
 // Trust proxy for rate limiting
 app.set('trust proxy', 1);
@@ -46,6 +52,10 @@ connectDB(config.mongoURL);
 })();
 
 // Middleware
+app.use((req, res, next) => {
+  req.io = io;
+  next();
+});
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({
@@ -98,6 +108,7 @@ app.use('/api/addresses', addressRoutes);
 app.use('/api/products', require('./routes/product'));
 app.use('/api/categories', require('./routes/category'));
 app.use('/api/orders', require('./routes/order'));
+app.use('/api/comments', require('./routes/comment'));
 app.use('/api/dashboard', require('./routes/dashboard'));
 
 // Error handling middleware
@@ -108,6 +119,6 @@ app.use((err, req, res, next) => {
 
 // Start server
 const PORT = config.port;
-app.listen(PORT, () => {
+server.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });

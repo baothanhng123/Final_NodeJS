@@ -35,6 +35,11 @@
   padding: 1rem 0;
 }
 
+.comment-rating {
+  color: gold; 
+  margin-bottom: 4px;
+}
+
 .comment-rating span {
   color: gold;
   font-size: 1.2rem;
