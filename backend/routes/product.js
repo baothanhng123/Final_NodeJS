@@ -10,7 +10,7 @@ router.get('/top-rated', productController.getTopRatedProducts);
 router.get('/latest', productController.getLatestProducts);
 router.get('/category/:categoryName', productController.getProductsByCategory);
 router.get('/', productController.getAllProducts);
-router.get('/', auth, isAdmin, productController.getAllProducts);
+router.get('/admin', auth, isAdmin, productController.getAllProducts);
 router.get('/:id', auth, isAdmin, productController.getProductById);
 router.get('/:id', auth, isAdmin, productController.getProductByCategory);
 router.post('/', auth, isAdmin, productController.createProduct);

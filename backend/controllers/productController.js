@@ -14,8 +14,9 @@ const mongoose = require('mongoose');
 exports.getAllProducts = async (req, res) => {
   try {
     const page = parseInt(req.query.page) || 1;
-    const limit = parseInt(req.query.limit) || 10;
-    const skip = (page - 1) * limit;
+    // Allow fetching all products if limit is set to 0 or a very large number, or default to 10
+    const limit = req.query.limit === 'all' ? null : parseInt(req.query.limit) || 10;
+    const skip = limit ? (page - 1) * limit : 0; // Only apply skip if limit is set
 
     let query = {};
 
@@ -120,6 +121,7 @@ exports.getAllProducts = async (req, res) => {
         const productObj = product.toObject();
         return {
           ...productObj,
+          id: productObj._id,
           category: {
             _id: productObj.category._id,
             description: productObj.category.description
@@ -129,9 +131,9 @@ exports.getAllProducts = async (req, res) => {
 
     res.json({
       products: formattedProducts,
-      total: formattedProducts.length,
+      total: total,
       page,
-      totalPages: Math.ceil(formattedProducts.length / limit)
+      totalPages: limit ? Math.ceil(total / limit) : 1
     });
   } catch (err) {
     //console.error('Error in getAllProducts:', err);

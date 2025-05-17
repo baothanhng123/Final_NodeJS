@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import "./Navbar.css";
 import cart_icon from "../Assets/cart_icon.png";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../../context/AuthContext";
+import { ShopContext } from "../../context/ShopContext";
 import {
   AppBar,
   Toolbar,
@@ -13,8 +14,7 @@ import {
   Box,
 } from "@mui/material";
 import {
-  ShoppingCart as ShoppingCartIcon,
-  AccountCircle,
+    AccountCircle,
   Person as PersonIcon,
 } from "@mui/icons-material";
 
@@ -40,7 +40,7 @@ const Navbar = () => {
 
   const menuId = "primary-search-account-menu";
   const isMenuOpen = Boolean(anchorEl);
-
+  const { getTotalCartItems } = useContext(ShopContext);
   const renderMenu = (
     <Menu
       anchorEl={anchorEl}
@@ -98,6 +98,10 @@ const Navbar = () => {
             </ul>
 
             <div className="nav-login-cart">
+              <Link to="/cart">
+                <img src={cart_icon} alt="Cart" />
+              </Link>
+              <div className="nav-cart-count">{getTotalCartItems()}</div>
               {user ? (
                 <>
                   <Typography
@@ -133,9 +137,7 @@ const Navbar = () => {
                   <PersonIcon />
                 </IconButton>
               )}
-              <Link to="/cart">
-                <img src={cart_icon} alt="Cart" />
-              </Link>
+              
             </div>
           </div>
         </Toolbar>
