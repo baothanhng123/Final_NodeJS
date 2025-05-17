@@ -83,11 +83,11 @@ const ProductDetail = () => {
       const config = token
         ? { headers: { Authorization: `Bearer ${token}` } }
         : {};
-      const res = await axios.post(endpoint, commentData, config);
+      await axios.post(endpoint, commentData, config);
 
-      const { comment, newRating } = res.data;
+      //const { comment, newRating } = res.data;
 
-      setComments((prev) => [comment, ...prev]);
+      //setComments((prev) => [comment, ...prev]);
       setNewComment("");
       setNewRating(0);
 
@@ -135,20 +135,20 @@ const ProductDetail = () => {
             onChange={(e) => setNewComment(e.target.value)}
             rows={3}
           />
-          <div className="rating-input">
-            {[1, 2, 3, 4, 5].map((star) => (
-              <span
-                key={star}
-                className={star <= newRating ? "selected" : ""}
-                onClick={() => {
-                  if (isAuthenticated) setNewRating(star);
-                  else alert("Login to rate this product.");
-                }}
-              >
-                ★
-              </span>
-            ))}
-          </div>
+          {isAuthenticated && (
+            <div className="rating-input">
+              {[1, 2, 3, 4, 5].map((star) => (
+                <span
+                  key={star}
+                  className={star <= newRating ? "selected" : ""}
+                  onClick={() => setNewRating(star)}
+                >
+                  ★
+                </span>
+              ))}
+            </div>
+          )}
+
           <button type="submit">Submit</button>
         </form>
 
@@ -157,7 +157,9 @@ const ProductDetail = () => {
           {comments.map((c, i) => (
             <div key={i} className="comment">
               <p className="comment-user">
-                <strong>{c.username}</strong>
+                <strong>
+                  {c.userId?.fullname || c.username || "Anonymous"}
+                </strong>
               </p>
 
               {/* Only show rating stars if a rating exists */}

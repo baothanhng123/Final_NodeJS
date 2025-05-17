@@ -2,7 +2,7 @@ const Comment = require('../models/Comment');
 const Product = require('../models/Product');
 exports.getCommentsByProductId = async (req, res) => {
   try {
-    const comments = await Comment.find({ productId: req.params.productId }).sort({ createdAt: -1 });
+    const comments = await Comment.find({ productId: req.params.productId }).sort({ createdAt: -1 }).populate('userId', 'fullname');
     res.json(comments);
   } catch (error) {
     res.status(500).json({ message: 'Failed to fetch comments' });
@@ -16,7 +16,7 @@ exports.addComment = async (req, res) => {
 
     const isAuthenticated = !!req.user;
     const username = isAuthenticated
-      ? req.user.username || req.user.name || 'Anonymous'
+      ? req.user.fullname || req.user.username || req.user.name || 'Anonymous'
       : 'User' + Math.floor(1000 + Math.random() * 9000);
 
     const commentData = {
