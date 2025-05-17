@@ -11,7 +11,8 @@ const socket = io("http://localhost:5000");
 const ProductDetail = () => {
   const { productId } = useParams();
   const { all_product } = useContext(ShopContext);
-  const product = all_product.find((p) => p._id === productId);
+  const product = all_product.find((p) => String(p._id) === String(productId));
+
 
   const [comments, setComments] = useState([]);
   const [newComment, setNewComment] = useState("");

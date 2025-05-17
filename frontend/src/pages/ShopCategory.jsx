@@ -1,11 +1,12 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import "./CSS/ShopCategory.css";
 import { ShopContext } from "../context/ShopContext";
 import Item from "../components/Item/Item";
 //import dropdown_icon from "../components/Assets/dropdown_icon.png";
 
 const ShopCategory = (props) => {
-  const { all_product } = useContext(ShopContext);
+  const [fetchedProducts, setFetchedProducts] = useState([]);
+
   const { category } = props;
 
   const [searchTerm, setSearchTerm] = useState("");
@@ -19,9 +20,26 @@ const ShopCategory = (props) => {
 
   const productsPerPage = 8;
 
+  // Defensive: ensure all_product is always an array
+  const safeAllProduct = Array.isArray(fetchedProducts) ? fetchedProducts : [];
+  useEffect(() => {
+  const fetchProducts = async () => {
+    try {
+      const res = await fetch(`http://localhost:5000/api/products/category/${category}`);
+      const data = await res.json();
+      setFetchedProducts(data);
+    } catch (err) {
+      console.error('Error fetching products:', err);
+    }
+  };
+
+  fetchProducts();
+}, [category]);
+
+
   // Filter
-  let filtered_products = all_product
-    .filter((e) => e.category === category)
+  let filtered_products = safeAllProduct
+    .filter((e) => e.category?.description?.toLowerCase() === category.toLowerCase())
     .filter((product) =>
       product.name.toLowerCase().includes(searchTerm.toLowerCase())
     )

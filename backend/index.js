@@ -30,8 +30,8 @@ connectDB(config.mongoURL);
 // Tạo tài khoản admin mặc định nếu chưa có
 (async () => {
   try {
-    const adminEmail = 'admin@gmail.com';
-    const adminPassword = '123456';
+    const adminEmail = process.env.ADMIN_EMAIL;
+    const adminPassword = process.env.ADMIN_PASSWORD;
     const admin = await User.findOne({ email: adminEmail });
     if (!admin) {
       await User.create({
@@ -109,6 +109,7 @@ app.use('/api/products', require('./routes/product'));
 app.use('/api/categories', require('./routes/category'));
 app.use('/api/orders', require('./routes/order'));
 app.use('/api/comments', require('./routes/comment'));
+app.use('/api/dashboard', require('./routes/dashboard'));
 
 // Error handling middleware
 app.use((err, req, res, next) => {

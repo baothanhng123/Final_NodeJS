@@ -17,7 +17,7 @@ export default function Sidebar() {
     <Drawer variant="permanent" sx={{ width: 220, flexShrink: 0, [`& .MuiDrawer-paper`]: { width: 220, boxSizing: 'border-box', background: "#233044", color: "#fff" } }}>
       <List>
         <ListItem>
-          <ListItemText primary="Thuan An Store" primaryTypographyProps={{ fontWeight: "bold" }} />
+          <ListItemText primary="Computer Store" primaryTypographyProps={{ fontWeight: "bold" }} />
         </ListItem>
         {menu.map((item) => (
           <ListItem

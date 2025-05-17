@@ -10,8 +10,10 @@ const ShopContextProvider = (props) => {
         // Always fetch products, even if not logged in
         const fetchProducts = async () => {
             try {
-                const res = await axios.get("/api/products", token ? { headers: { Authorization: `Bearer ${token}` } } : {});
-                setAllProduct(res.data);
+                //const res = await axios.get("/api/products", token ? { headers: { Authorization: `Bearer ${token}` } } : {});
+                const res = await axios.get("/api/products");
+
+                setAllProduct(res.data.products);
             } catch (error) {
                 console.error("Failed to fetch products:", error.response?.data || error.message);
             }

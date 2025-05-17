@@ -17,7 +17,12 @@ const Item = (props) => {
   };
     return (
         <div className="item">
-            <img src={props.image} alt={props.name} />
+            {props.image ? (
+  <img src={props.image} alt={props.name} />
+) : (
+  <div className="no-image">No preview available</div>
+)}
+
             <h3>{props.name}</h3> {/* Changed <p> to <h3> for the name, assuming it's a title */}
             <div className="prices"> {/* Changed className to "prices" for better semantic meaning */}
                 <span className="new-price">${props.new_price}</span> {/* Used <span> for inline styling */}
