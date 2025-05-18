@@ -1,0 +1,48 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    env_file:
+      - ./backend/.env # Load environment variables from .env file
+    ports:
+      - "5000:5000" # Map host port 5000 to container port 5000
+    environment:
+      NODE_ENV: development # Or production
+      # Add other environment variables needed by your backend, e.g., database connection string
+      MONGODB_URI: mongodb://database:27017/mydatabase
+    depends_on:
+      - database # Ensure database container starts before backend
+    networks:
+      - app-network
+    volumes:
+      - ./backend:/app/backend # Mount the backend code volume for easier development (optional, remove for production builds)
+      - /app/backend/node_modules # Prevent host node_modules from overwriting container's
+      - ./backend/uploads:/app/backend/uploads # Mount uploads directory if needed
+
+  frontend:
+    build:
+      context: ./frontend
+    container_name: frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    networks:
+      - app-network
+
+
+  database:
+    image: mongo:latest # Use the latest MongoDB image
+    ports:
+      - "27017:27017" # Map host port 27017 to container port 27017
+    volumes:
+      - mongo_data:/data/db # Persistent storage for database data
+    networks:
+      - app-network
+
+volumes:
+  mongo_data: # Define the named volume for MongoDB data
+
+networks:
+  app-network:

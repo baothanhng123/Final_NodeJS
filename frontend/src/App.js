@@ -23,6 +23,10 @@ import OrderDetails from "./components/admin/OrderDetails";
 import ProductDetail from './pages/ProductDetail';
 import Cart from './pages/Cart';
 import './App.css';
+import axios from 'axios';
+
+// Set default base URL for Axios
+axios.defaults.baseURL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
 
 // Create a wrapper component to handle the sidebar visibility
 const AppContent = () => {

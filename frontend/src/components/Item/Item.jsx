@@ -3,6 +3,8 @@ import './Item.css';
 import { useNavigate } from 'react-router-dom';
 import { ShopContext } from '../../context/ShopContext';
 import { Link } from 'react-router-dom';
+import axios from 'axios';
+
 const Item = (props) => {
   const navigate = useNavigate(); // Assuming you're using react-router-dom for navigation
   const renderStars = (rating) => {
@@ -25,7 +27,7 @@ const Item = (props) => {
       ) : (
         <div className="no-image">No preview available</div>
       )} */}
-      <Link to={`/product/${props.id}`}><img src={props.image} alt={props.name} /></Link>
+      <Link to={`/product/${props.id}`}><img src={`${axios.defaults.baseURL}${props.image}`} alt={props.name} /></Link>
       <h3>{props.name}</h3> {/* Changed <p> to <h3> for the name, assuming it's a title */}
       <div className="prices"> {/* Changed className to "prices" for better semantic meaning */}
         <span className="new-price">${props.new_price}</span> {/* Used <span> for inline styling */}

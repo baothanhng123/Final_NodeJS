@@ -3,6 +3,7 @@ import "./CSS/ShopCategory.css";
 import { ShopContext } from "../context/ShopContext";
 import Item from "../components/Item/Item";
 //import dropdown_icon from "../components/Assets/dropdown_icon.png";
+import axios from 'axios';
 
 const ShopCategory = (props) => {
   const [fetchedProducts, setFetchedProducts] = useState([]);
@@ -19,14 +20,14 @@ const ShopCategory = (props) => {
   const [selectedRating, setSelectedRating] = useState("all");
 
   const productsPerPage = 8;
-
+  const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
   // Defensive: ensure all_product is always an array
   const safeAllProduct = Array.isArray(fetchedProducts) ? fetchedProducts : [];
   useEffect(() => {
   const fetchProducts = async () => {
     try {
-      const res = await fetch(`http://localhost:5000/api/products/category/${category}`);
-      const data = await res.json();
+      const res = await axios.get(`/api/products/category/${category}`);
+      const data = res.data;
       setFetchedProducts(data);
     } catch (err) {
       console.error('Error fetching products:', err);

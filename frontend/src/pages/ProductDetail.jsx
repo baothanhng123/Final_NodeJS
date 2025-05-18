@@ -6,7 +6,8 @@ import { io } from "socket.io-client";
 import axios from "axios";
 import "../styles/ProductDetail.css";
 
-const socket = io("http://localhost:5000");
+//const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+const socket = io(process.env.REACT_APP_API_URL || 'http://localhost:5000'); // Use environment variable directly
 
 const ProductDetail = () => {
   const { productId } = useParams();
@@ -101,7 +102,7 @@ const ProductDetail = () => {
 
   return (
     <div className="product-detail">
-      <img src={product.photo} alt={product.name} />
+      <img src={`${axios.defaults.baseURL}${product.photo}`} alt={product.name} />
       <div className="product-info">
         <h2>{product.name}</h2>
         <p>

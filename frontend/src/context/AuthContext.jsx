@@ -7,7 +7,6 @@ export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [token, setToken] = useState(localStorage.getItem('token'));
   const [loading, setLoading] = useState(true);
-
   const checkAuth = useCallback(async () => {
     try {
       const response = await axios.get('/api/auth/me', {
@@ -69,7 +68,7 @@ export const AuthProvider = ({ children }) => {
 
   const register = async (userData) => {
     try {
-      const response = await axios.post('http://localhost:5000/api/auth/register',
+      const response = await axios.post('/api/auth/register',
         userData
       );
       return { 
@@ -112,7 +111,7 @@ export const AuthProvider = ({ children }) => {
 
   const updatePassword = async (currentPassword, newPassword) => {
     try {
-      const response = await axios.put('http://localhost:5000/api/auth/password',
+      const response = await axios.put('/api/auth/password',
         { currentPassword, newPassword },
         {
           headers: {
@@ -160,7 +159,7 @@ export const AuthProvider = ({ children }) => {
 
   // Add Google login method
   const loginWithGoogle = () => {
-    window.location.href = 'http://localhost:5000/api/auth/google';
+    window.location.href = `${process.env.REACT_APP_API_URL || 'http://localhost:5000'}/api/auth/google`;
   };
 
   const value = {
