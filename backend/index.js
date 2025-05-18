@@ -9,9 +9,9 @@ const connectDB = require('./config/db');
 const config = require('./config/main');
 const addressRoutes = require('./routes/address');
 const fs = require('fs');
-const User = require('./models/User');
 const http = require('http');
 const { Server } = require('socket.io');
+const User = require('./models/User');
 
 
 // Initialize Express app
@@ -26,30 +26,6 @@ app.set('trust proxy', 1);
 
 // Connect to MongoDB
 connectDB(config.mongoURL);
-
-// Tạo tài khoản admin mặc định nếu chưa có
-(async () => {
-  try {
-    const adminEmail = process.env.ADMIN_EMAIL;
-    const adminPassword = process.env.ADMIN_PASSWORD;
-    const admin = await User.findOne({ email: adminEmail });
-    if (!admin) {
-      await User.create({
-        email: adminEmail,
-        fullname: 'Admin',
-        password: adminPassword,
-        role: 'admin',
-        authType: 'local',
-        addresses: [],
-      });
-      console.log('Admin account created: admin@gmail.com / 123456');
-    } else {
-      console.log('Admin account already exists');
-    }
-  } catch (err) {
-    console.error('Error creating admin account:', err);
-  }
-})();
 
 // Middleware
 app.use((req, res, next) => {
@@ -119,6 +95,39 @@ app.use((err, req, res, next) => {
 
 // Start server
 const PORT = config.port;
-server.listen(PORT, () => {
+server.listen(PORT, async () => {
   console.log(`Server is running on port ${PORT}`);
+  await createAdmin();
 });
+
+// Modify the admin creation part
+const createAdmin = async () => {
+  try {
+    await connectDB(config.mongoURL); // Ensure DB is connected first
+    
+    const adminEmail = process.env.ADMIN_EMAIL;
+    const adminPassword = process.env.ADMIN_PASSWORD;
+    
+    if (!adminEmail || !adminPassword) {
+      console.error('Admin credentials not found in environment variables');
+      return;
+    }
+
+    const admin = await User.findOne({ email: adminEmail });
+    if (!admin) {
+      await User.create({
+        email: adminEmail,
+        fullname: 'Admin',
+        password: adminPassword,
+        role: 'admin',
+        authType: 'local',
+        addresses: [],
+      });
+      console.log('Admin account created successfully');
+    } else {
+      console.log('Admin account already exists');
+    }
+  } catch (err) {
+    console.error('Error creating admin account:', err);
+  }
+};

@@ -10,7 +10,7 @@ const socket = io("http://localhost:5000");
 
 const ProductDetail = () => {
   const { productId } = useParams();
-  const { all_product } = useContext(ShopContext);
+  const { all_product, addToCart } = useContext(ShopContext);
   const product = all_product.find((p) => String(p._id) === String(productId));
 
 
@@ -122,7 +122,7 @@ const ProductDetail = () => {
           <strong>Description:</strong>
         </p>
         <p>{product.description}</p>
-        <button className="buy-button">Buy Now</button>
+        <button className="buy-button" onClick={() => addToCart(product._id)}>Buy Now</button>
       </div>
 
       {/* Comment Section */}

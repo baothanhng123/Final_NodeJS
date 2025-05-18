@@ -1,0 +1,2703 @@
+[
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330729"
+    },
+    "name": "Acer Nitro",
+    "category": {
+      "$oid": "682616b6a1abdde7732d982d"
+    },
+    "photo": "/uploads/product/product_4.png",
+    "price": 500,
+    "brand": "Acer",
+    "description": "Acer Nitro is a high-quality computer designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this computer is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Acer Nitro stands out in its category.\nExperience the perfect blend of form and function with this exceptional computer.",
+    "quantity": 1,
+    "barcode": "1",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:35:55.000Z"
+    },
+    "rating": 4.8
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33072a"
+    },
+    "name": "White Gaming Mouse with RGB",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_5.png",
+    "price": 1000,
+    "brand": "Generic",
+    "description": "White Gaming Mouse with RGB is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the White Gaming Mouse with RGB stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 7,
+    "barcode": "2",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:35:56.000Z"
+    },
+    "rating": 1.4
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33072b"
+    },
+    "name": "Black Gaming Mouse with RGB",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_6.png",
+    "price": 500,
+    "brand": "Generic",
+    "description": "Black Gaming Mouse with RGB is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Black Gaming Mouse with RGB stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 3,
+    "barcode": "3",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:35:57.000Z"
+    },
+    "rating": 3.5
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33072c"
+    },
+    "name": "Ergonomic Black Mouse",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_7.png",
+    "price": 600,
+    "brand": "Generic",
+    "description": "Ergonomic Black Mouse is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Ergonomic Black Mouse stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 1,
+    "barcode": "4",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:35:58.000Z"
+    },
+    "rating": 3.4
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33072d"
+    },
+    "name": "Black Gaming Mouse with RGB Lighting",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_8.png",
+    "price": 100,
+    "brand": "Generic",
+    "description": "Black Gaming Mouse with RGB Lighting is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Black Gaming Mouse with RGB Lighting stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 4,
+    "barcode": "5",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:35:59.000Z"
+    },
+    "rating": 4.4
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33072e"
+    },
+    "name": "White Gaming Mouse",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_9.png",
+    "price": 200,
+    "brand": "Generic",
+    "description": "White Gaming Mouse is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the White Gaming Mouse stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 4,
+    "barcode": "6",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:00.000Z"
+    },
+    "rating": 1.2
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33072f"
+    },
+    "name": "Black Wireless Gaming Mouse",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_10.png",
+    "price": 550,
+    "brand": "Generic",
+    "description": "Black Wireless Gaming Mouse is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Black Wireless Gaming Mouse stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 7,
+    "barcode": "7",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:01.000Z"
+    },
+    "rating": 3.3
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330730"
+    },
+    "name": "Wired-earphones",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_11.png",
+    "price": 35,
+    "brand": "Generic",
+    "description": "Wired-earphones is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Wired-earphones stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 1,
+    "barcode": "8",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:02.000Z"
+    },
+    "rating": 4.2
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330731"
+    },
+    "name": "White Wireless Gaming Mouse",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_12.png",
+    "price": 450,
+    "brand": "Generic",
+    "description": "White Wireless Gaming Mouse is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the White Wireless Gaming Mouse stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 10,
+    "barcode": "9",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:03.000Z"
+    },
+    "rating": 3.9
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330732"
+    },
+    "name": "Mac Air M2",
+    "category": {
+      "$oid": "682616b6a1abdde7732d982d"
+    },
+    "photo": "/uploads/product/product_13.png",
+    "price": 2000,
+    "brand": "Apple",
+    "description": "Mac Air M2 is a high-quality computer designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this computer is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Mac Air M2 stands out in its category.\nExperience the perfect blend of form and function with this exceptional computer.",
+    "quantity": 4,
+    "barcode": "10",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:04.000Z"
+    },
+    "rating": 3.5
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330733"
+    },
+    "name": "Mac Air M2",
+    "category": {
+      "$oid": "682616b6a1abdde7732d982d"
+    },
+    "photo": "/uploads/product/product_14.png",
+    "price": 2885,
+    "brand": "Apple",
+    "description": "Mac Air M2 is a high-quality computer designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this computer is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Mac Air M2 stands out in its category.\nExperience the perfect blend of form and function with this exceptional computer.",
+    "quantity": 2,
+    "barcode": "11",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:05.000Z"
+    },
+    "rating": 3.8
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330734"
+    },
+    "name": "Mac Pro M4",
+    "category": {
+      "$oid": "682616b6a1abdde7732d982d"
+    },
+    "photo": "/uploads/product/product_15.png",
+    "price": 4885,
+    "brand": "Apple",
+    "description": "Mac Pro M4 is a high-quality computer designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this computer is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Mac Pro M4 stands out in its category.\nExperience the perfect blend of form and function with this exceptional computer.",
+    "quantity": 7,
+    "barcode": "12",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:06.000Z"
+    },
+    "rating": 4.7
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330735"
+    },
+    "name": "Mac M4",
+    "category": {
+      "$oid": "682616c9a1abdde7732d9832"
+    },
+    "photo": "/uploads/product/product_16.png",
+    "price": 3885,
+    "brand": "Apple",
+    "description": "Mac M4 is a high-quality monitor designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this monitor is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Mac M4 stands out in its category.\nExperience the perfect blend of form and function with this exceptional monitor.",
+    "quantity": 9,
+    "barcode": "13",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:07.000Z"
+    },
+    "rating": 1.1
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330736"
+    },
+    "name": "Mac Pro M4",
+    "category": {
+      "$oid": "682616b6a1abdde7732d982d"
+    },
+    "photo": "/uploads/product/product_17.png",
+    "price": 4985,
+    "brand": "Apple",
+    "description": "Mac Pro M4 is a high-quality computer designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this computer is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Mac Pro M4 stands out in its category.\nExperience the perfect blend of form and function with this exceptional computer.",
+    "quantity": 6,
+    "barcode": "14",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:08.000Z"
+    },
+    "rating": 1.8
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330737"
+    },
+    "name": "Mac Mini M4",
+    "category": {
+      "$oid": "682616b6a1abdde7732d982d"
+    },
+    "photo": "/uploads/product/product_18.png",
+    "price": 2880,
+    "brand": "Apple",
+    "description": "Mac Mini M4 is a high-quality computer designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this computer is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Mac Mini M4 stands out in its category.\nExperience the perfect blend of form and function with this exceptional computer.",
+    "quantity": 7,
+    "barcode": "15",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:09.000Z"
+    },
+    "rating": 2.7
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330738"
+    },
+    "name": "Mac Air 4",
+    "category": {
+      "$oid": "682616b6a1abdde7732d982d"
+    },
+    "photo": "/uploads/product/product_19.png",
+    "price": 1885,
+    "brand": "Apple",
+    "description": "Mac Air 4 is a high-quality computer designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this computer is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Mac Air 4 stands out in its category.\nExperience the perfect blend of form and function with this exceptional computer.",
+    "quantity": 4,
+    "barcode": "16",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:10.000Z"
+    },
+    "rating": 1
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330739"
+    },
+    "name": "Mac M4 Pro",
+    "category": {
+      "$oid": "682616b6a1abdde7732d982d"
+    },
+    "photo": "/uploads/product/product_20.png",
+    "price": 5000,
+    "brand": "Apple",
+    "description": "Mac M4 Pro is a high-quality computer designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this computer is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Mac M4 Pro stands out in its category.\nExperience the perfect blend of form and function with this exceptional computer.",
+    "quantity": 6,
+    "barcode": "17",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:11.000Z"
+    },
+    "rating": 4.1
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33073a"
+    },
+    "name": "Mac M3",
+    "category": {
+      "$oid": "682616c9a1abdde7732d9832"
+    },
+    "photo": "/uploads/product/product_21.png",
+    "price": 3000,
+    "brand": "Apple",
+    "description": "Mac M3 is a high-quality monitor designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this monitor is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Mac M3 stands out in its category.\nExperience the perfect blend of form and function with this exceptional monitor.",
+    "quantity": 8,
+    "barcode": "18",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:12.000Z"
+    },
+    "rating": 2.2
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33073b"
+    },
+    "name": "Mac M3 Pro Max",
+    "category": {
+      "$oid": "682616b6a1abdde7732d982d"
+    },
+    "photo": "/uploads/product/product_22.png",
+    "price": 3850,
+    "brand": "Apple",
+    "description": "Mac M3 Pro Max is a high-quality computer designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this computer is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Mac M3 Pro Max stands out in its category.\nExperience the perfect blend of form and function with this exceptional computer.",
+    "quantity": 9,
+    "barcode": "19",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:13.000Z"
+    },
+    "rating": 2.6
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33073c"
+    },
+    "name": "Apple M4",
+    "category": {
+      "$oid": "682616b6a1abdde7732d982d"
+    },
+    "photo": "/uploads/product/product_23.png",
+    "price": 6885,
+    "brand": "Apple",
+    "description": "Apple M4 is a high-quality computer designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this computer is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Apple M4 stands out in its category.\nExperience the perfect blend of form and function with this exceptional computer.",
+    "quantity": 4,
+    "barcode": "20",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:14.000Z"
+    },
+    "rating": 2.8
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33073d"
+    },
+    "name": "Mac M1",
+    "category": {
+      "$oid": "682616b6a1abdde7732d982d"
+    },
+    "photo": "/uploads/product/product_24.png",
+    "price": 1085,
+    "brand": "Apple",
+    "description": "Mac M1 is a high-quality computer designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this computer is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Mac M1 stands out in its category.\nExperience the perfect blend of form and function with this exceptional computer.",
+    "quantity": 2,
+    "barcode": "21",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:15.000Z"
+    },
+    "rating": 3.8
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33073e"
+    },
+    "name": "NVIDIA GeForce RTX 3060",
+    "category": {
+      "$oid": "68261704a1abdde7732d9854"
+    },
+    "photo": "/uploads/product/product_25.png",
+    "price": 3450,
+    "brand": "NVIDIA",
+    "description": "NVIDIA GeForce RTX 3060 is a high-quality phone designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this phone is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the NVIDIA GeForce RTX 3060 stands out in its category.\nExperience the perfect blend of form and function with this exceptional phone.",
+    "quantity": 8,
+    "barcode": "22",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:16.000Z"
+    },
+    "rating": 1.3
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33073f"
+    },
+    "name": "GeForce RTX 5080",
+    "category": {
+      "$oid": "68261704a1abdde7732d9854"
+    },
+    "photo": "/uploads/product/product_26.png",
+    "price": 5800,
+    "brand": "NVIDIA",
+    "description": "GeForce RTX 5080 is a high-quality hardrive designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this hardrive is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the GeForce RTX 5080 stands out in its category.\nExperience the perfect blend of form and function with this exceptional hardrive.",
+    "quantity": 6,
+    "barcode": "23",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:17.000Z"
+    },
+    "rating": 1.3
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330740"
+    },
+    "name": "NVIDIA GeForce RTX 5080",
+    "category": {
+      "$oid": "68261704a1abdde7732d9854"
+    },
+    "photo": "/uploads/product/product_27.png",
+    "price": 5000,
+    "brand": "NVIDIA",
+    "description": "NVIDIA GeForce RTX 5080 is a high-quality hardrive designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this hardrive is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the NVIDIA GeForce RTX 5080 stands out in its category.\nExperience the perfect blend of form and function with this exceptional hardrive.",
+    "quantity": 10,
+    "barcode": "24",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:18.000Z"
+    },
+    "rating": 4
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330741"
+    },
+    "name": "RTX 5070 Graphics Card",
+    "category": {
+      "$oid": "68261704a1abdde7732d9854"
+    },
+    "photo": "/uploads/product/product_28.png",
+    "price": 4585,
+    "brand": "NVIDIA",
+    "description": "RTX 5070 Graphics Card is a high-quality hardrive designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this hardrive is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the RTX 5070 Graphics Card stands out in its category.\nExperience the perfect blend of form and function with this exceptional hardrive.",
+    "quantity": 4,
+    "barcode": "25",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:19.000Z"
+    },
+    "rating": 1.3
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330742"
+    },
+    "name": "GeForce RTX 5080",
+    "category": {
+      "$oid": "68261704a1abdde7732d9854"
+    },
+    "photo": "/uploads/product/product_29.png",
+    "price": 5885,
+    "brand": "NVIDIA",
+    "description": "GeForce RTX 5080 is a high-quality hardrive designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this hardrive is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the GeForce RTX 5080 stands out in its category.\nExperience the perfect blend of form and function with this exceptional hardrive.",
+    "quantity": 4,
+    "barcode": "26",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:20.000Z"
+    },
+    "rating": 4.2
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330743"
+    },
+    "name": "RGB Gaming Graphics Card",
+    "category": {
+      "$oid": "68261704a1abdde7732d9854"
+    },
+    "photo": "/uploads/product/product_30.png",
+    "price": 2000,
+    "brand": "Generic",
+    "description": "RGB Gaming Graphics Card is a high-quality hardrive designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this hardrive is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the RGB Gaming Graphics Card stands out in its category.\nExperience the perfect blend of form and function with this exceptional hardrive.",
+    "quantity": 9,
+    "barcode": "27",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:21.000Z"
+    },
+    "rating": 3.2
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330744"
+    },
+    "name": "Advanced RTX Graphics Card",
+    "category": {
+      "$oid": "68261704a1abdde7732d9854"
+    },
+    "photo": "/uploads/product/product_31.png",
+    "price": 6555,
+    "brand": "NVIDIA",
+    "description": "Advanced RTX Graphics Card is a high-quality hardrive designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this hardrive is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Advanced RTX Graphics Card stands out in its category.\nExperience the perfect blend of form and function with this exceptional hardrive.",
+    "quantity": 10,
+    "barcode": "28",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:22.000Z"
+    },
+    "rating": 4.8
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330745"
+    },
+    "name": "Dual Fan RTX Graphics Card",
+    "category": {
+      "$oid": "68261704a1abdde7732d9854"
+    },
+    "photo": "/uploads/product/product_32.png",
+    "price": 2680,
+    "brand": "NVIDIA",
+    "description": "Dual Fan RTX Graphics Card is a high-quality phone designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this phone is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Dual Fan RTX Graphics Card stands out in its category.\nExperience the perfect blend of form and function with this exceptional phone.",
+    "quantity": 3,
+    "barcode": "29",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:23.000Z"
+    },
+    "rating": 2.2
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330746"
+    },
+    "name": " ASUS ROG Strix GeForce RTX 4080 SUPER",
+    "category": {
+      "$oid": "68261704a1abdde7732d9854"
+    },
+    "photo": "/uploads/product/product_33.png",
+    "price": 5450,
+    "brand": "ASUS",
+    "description": " ASUS ROG Strix GeForce RTX 4080 SUPER is a high-quality hardrive designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this hardrive is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the  ASUS ROG Strix GeForce RTX 4080 SUPER stands out in its category.\nExperience the perfect blend of form and function with this exceptional hardrive.",
+    "quantity": 7,
+    "barcode": "30",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:24.000Z"
+    },
+    "rating": 2
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330747"
+    },
+    "name": " ASUS TUF Gaming GeForce RTX 4080 SUPER",
+    "category": {
+      "$oid": "68261704a1abdde7732d9854"
+    },
+    "photo": "/uploads/product/product_34.png",
+    "price": 5285,
+    "brand": "ASUS",
+    "description": " ASUS TUF Gaming GeForce RTX 4080 SUPER is a high-quality hardrive designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this hardrive is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the  ASUS TUF Gaming GeForce RTX 4080 SUPER stands out in its category.\nExperience the perfect blend of form and function with this exceptional hardrive.",
+    "quantity": 2,
+    "barcode": "31",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:25.000Z"
+    },
+    "rating": 2.1
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330748"
+    },
+    "name": "MSI GeForce RTX 4080 SUPER",
+    "category": {
+      "$oid": "68261704a1abdde7732d9854"
+    },
+    "photo": "/uploads/product/product_35.png",
+    "price": 5585,
+    "brand": "NVIDIA",
+    "description": "MSI GeForce RTX 4080 SUPER is a high-quality hardrive designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this hardrive is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the MSI GeForce RTX 4080 SUPER stands out in its category.\nExperience the perfect blend of form and function with this exceptional hardrive.",
+    "quantity": 7,
+    "barcode": "32",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:26.000Z"
+    },
+    "rating": 2.2
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330749"
+    },
+    "name": "Triple Fan RTX Graphics Card",
+    "category": {
+      "$oid": "68261704a1abdde7732d9854"
+    },
+    "photo": "/uploads/product/product_36.png",
+    "price": 2185,
+    "brand": "NVIDIA",
+    "description": "Triple Fan RTX Graphics Card is a high-quality hardrive designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this hardrive is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Triple Fan RTX Graphics Card stands out in its category.\nExperience the perfect blend of form and function with this exceptional hardrive.",
+    "quantity": 9,
+    "barcode": "33",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:27.000Z"
+    },
+    "rating": 2.6
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33074a"
+    },
+    "name": "ASUS ROG Strix GeForce RTX 4080 SUPER",
+    "category": {
+      "$oid": "68261704a1abdde7732d9854"
+    },
+    "photo": "/uploads/product/product_37.png",
+    "price": 4000,
+    "brand": "ASUS",
+    "description": "ASUS ROG Strix GeForce RTX 4080 SUPER is a high-quality hardrive designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this hardrive is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the ASUS ROG Strix GeForce RTX 4080 SUPER stands out in its category.\nExperience the perfect blend of form and function with this exceptional hardrive.",
+    "quantity": 10,
+    "barcode": "34",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:28.000Z"
+    },
+    "rating": 1.4
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33074b"
+    },
+    "name": "ASUS TUF Gaming VG27AQ1A 27-inch WQHD IPS Gaming Monitor",
+    "category": {
+      "$oid": "682616c9a1abdde7732d9832"
+    },
+    "photo": "/uploads/product/product_38.png",
+    "price": 1000,
+    "brand": "ASUS",
+    "description": "ASUS TUF Gaming VG27AQ1A 27-inch WQHD IPS Gaming Monitor is a high-quality monitor designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this monitor is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the ASUS TUF Gaming VG27AQ1A 27-inch WQHD IPS Gaming Monitor stands out in its category.\nExperience the perfect blend of form and function with this exceptional monitor.",
+    "quantity": 5,
+    "barcode": "35",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:29.000Z"
+    },
+    "rating": 2.9
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33074c"
+    },
+    "name": "Curved Gaming Monitor ho\u1eb7c 27-inch Curved Gaming Monitor ",
+    "category": {
+      "$oid": "682616c9a1abdde7732d9832"
+    },
+    "photo": "/uploads/product/product_39.png",
+    "price": 900,
+    "brand": "Generic",
+    "description": "Curved Gaming Monitor ho\u1eb7c 27-inch Curved Gaming Monitor  is a high-quality monitor designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this monitor is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Curved Gaming Monitor ho\u1eb7c 27-inch Curved Gaming Monitor  stands out in its category.\nExperience the perfect blend of form and function with this exceptional monitor.",
+    "quantity": 2,
+    "barcode": "36",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:30.000Z"
+    },
+    "rating": 3
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33074d"
+    },
+    "name": "Gaming Monitor",
+    "category": {
+      "$oid": "682616c9a1abdde7732d9832"
+    },
+    "photo": "/uploads/product/product_40.png",
+    "price": 800,
+    "brand": "Generic",
+    "description": "Gaming Monitor is a high-quality monitor designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this monitor is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Gaming Monitor stands out in its category.\nExperience the perfect blend of form and function with this exceptional monitor.",
+    "quantity": 6,
+    "barcode": "37",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:31.000Z"
+    },
+    "rating": 1
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33074e"
+    },
+    "name": "ASUS TUF Gaming VG27AQ3A 27-inch WQHD IPS Gaming Monitor ",
+    "category": {
+      "$oid": "682616c9a1abdde7732d9832"
+    },
+    "photo": "/uploads/product/product_41.png",
+    "price": 1500,
+    "brand": "ASUS",
+    "description": "ASUS TUF Gaming VG27AQ3A 27-inch WQHD IPS Gaming Monitor  is a high-quality monitor designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this monitor is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the ASUS TUF Gaming VG27AQ3A 27-inch WQHD IPS Gaming Monitor  stands out in its category.\nExperience the perfect blend of form and function with this exceptional monitor.",
+    "quantity": 8,
+    "barcode": "38",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:32.000Z"
+    },
+    "rating": 4
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33074f"
+    },
+    "name": "ASUS TUF Gaming Monitor ",
+    "category": {
+      "$oid": "682616c9a1abdde7732d9832"
+    },
+    "photo": "/uploads/product/product_42.png",
+    "price": 2000,
+    "brand": "ASUS",
+    "description": "ASUS TUF Gaming Monitor  is a high-quality monitor designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this monitor is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the ASUS TUF Gaming Monitor  stands out in its category.\nExperience the perfect blend of form and function with this exceptional monitor.",
+    "quantity": 10,
+    "barcode": "39",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:33.000Z"
+    },
+    "rating": 4.1
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330750"
+    },
+    "name": "Flat Gaming Monitor ho\u1eb7c 27-inch Flat Gaming Monitor.",
+    "category": {
+      "$oid": "682616c9a1abdde7732d9832"
+    },
+    "photo": "/uploads/product/product_43.png",
+    "price": 700,
+    "brand": "Generic",
+    "description": "Flat Gaming Monitor ho\u1eb7c 27-inch Flat Gaming Monitor. is a high-quality monitor designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this monitor is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Flat Gaming Monitor ho\u1eb7c 27-inch Flat Gaming Monitor. stands out in its category.\nExperience the perfect blend of form and function with this exceptional monitor.",
+    "quantity": 2,
+    "barcode": "40",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:34.000Z"
+    },
+    "rating": 4.6
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330751"
+    },
+    "name": "ASUS TUF Gaming VG27WQ1B 27-inch Curved Gaming Monitor",
+    "category": {
+      "$oid": "682616c9a1abdde7732d9832"
+    },
+    "photo": "/uploads/product/product_44.png",
+    "price": 750,
+    "brand": "ASUS",
+    "description": "ASUS TUF Gaming VG27WQ1B 27-inch Curved Gaming Monitor is a high-quality monitor designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this monitor is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the ASUS TUF Gaming VG27WQ1B 27-inch Curved Gaming Monitor stands out in its category.\nExperience the perfect blend of form and function with this exceptional monitor.",
+    "quantity": 2,
+    "barcode": "41",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:35.000Z"
+    },
+    "rating": 4.1
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330752"
+    },
+    "name": "Gaming Monitor with Backlighting",
+    "category": {
+      "$oid": "682616c9a1abdde7732d9832"
+    },
+    "photo": "/uploads/product/product_45.png",
+    "price": 1200,
+    "brand": "Generic",
+    "description": "Gaming Monitor with Backlighting is a high-quality monitor designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this monitor is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Gaming Monitor with Backlighting stands out in its category.\nExperience the perfect blend of form and function with this exceptional monitor.",
+    "quantity": 7,
+    "barcode": "42",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:36.000Z"
+    },
+    "rating": 3.4
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330753"
+    },
+    "name": "Acer Nitro Gaming Monitor",
+    "category": {
+      "$oid": "682616c9a1abdde7732d9832"
+    },
+    "photo": "/uploads/product/product_46.png",
+    "price": 900,
+    "brand": "Acer",
+    "description": "Acer Nitro Gaming Monitor is a high-quality monitor designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this monitor is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Acer Nitro Gaming Monitor stands out in its category.\nExperience the perfect blend of form and function with this exceptional monitor.",
+    "quantity": 10,
+    "barcode": "43",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:37.000Z"
+    },
+    "rating": 3.8
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330754"
+    },
+    "name": "ASUS TUF Gaming Monitor ",
+    "category": {
+      "$oid": "682616c9a1abdde7732d9832"
+    },
+    "photo": "/uploads/product/product_47.png",
+    "price": 1000,
+    "brand": "ASUS",
+    "description": "ASUS TUF Gaming Monitor  is a high-quality monitor designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this monitor is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the ASUS TUF Gaming Monitor  stands out in its category.\nExperience the perfect blend of form and function with this exceptional monitor.",
+    "quantity": 7,
+    "barcode": "44",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:38.000Z"
+    },
+    "rating": 1.6
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330755"
+    },
+    "name": "Razer White Gaming Mouse.",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_48.png",
+    "price": 850,
+    "brand": "Razer",
+    "description": "Razer White Gaming Mouse. is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Razer White Gaming Mouse. stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 6,
+    "barcode": "45",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:39.000Z"
+    },
+    "rating": 2.7
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330756"
+    },
+    "name": "SteelSeries Rival 3.",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_49.png",
+    "price": 920,
+    "brand": "SteelSeries",
+    "description": "SteelSeries Rival 3. is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the SteelSeries Rival 3. stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 2,
+    "barcode": "46",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:40.000Z"
+    },
+    "rating": 3.9
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330757"
+    },
+    "name": "Logitech G PRO X SUPERLIGHT White.",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_50.png",
+    "price": 780,
+    "brand": "Logitech",
+    "description": "Logitech G PRO X SUPERLIGHT White. is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Logitech G PRO X SUPERLIGHT White. stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 7,
+    "barcode": "47",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:41.000Z"
+    },
+    "rating": 2.5
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330758"
+    },
+    "name": "Logitech G PRO X SUPERLIGHT Black.",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_51.png",
+    "price": 600,
+    "brand": "Logitech",
+    "description": "Logitech G PRO X SUPERLIGHT Black. is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Logitech G PRO X SUPERLIGHT Black. stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 1,
+    "barcode": "48",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:42.000Z"
+    },
+    "rating": 1.8
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330759"
+    },
+    "name": "Symmetrical White Gaming Mouse.",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_52.png",
+    "price": 450,
+    "brand": "Generic",
+    "description": "Symmetrical White Gaming Mouse. is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Symmetrical White Gaming Mouse. stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 8,
+    "barcode": "49",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:43.000Z"
+    },
+    "rating": 1.8
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33075a"
+    },
+    "name": "Ergonomic Black Gaming Mouse.",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_53.png",
+    "price": 300,
+    "brand": "Generic",
+    "description": "Ergonomic Black Gaming Mouse. is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Ergonomic Black Gaming Mouse. stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 9,
+    "barcode": "50",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:44.000Z"
+    },
+    "rating": 1.2
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33075b"
+    },
+    "name": "ASUS ROG Gaming Headset.",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_54.png",
+    "price": 250,
+    "brand": "ASUS",
+    "description": "ASUS ROG Gaming Headset. is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the ASUS ROG Gaming Headset. stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 8,
+    "barcode": "51",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:45.000Z"
+    },
+    "rating": 1.1
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33075c"
+    },
+    "name": "Wireless Grey Headphones.",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_55.png",
+    "price": 550,
+    "brand": "Generic",
+    "description": "Wireless Grey Headphones. is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Wireless Grey Headphones. stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 10,
+    "barcode": "52",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:46.000Z"
+    },
+    "rating": 4.1
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33075d"
+    },
+    "name": "Wireless Cream Headphones.",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_56.png",
+    "price": 700,
+    "brand": "Generic",
+    "description": "Wireless Cream Headphones. is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Wireless Cream Headphones. stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 3,
+    "barcode": "53",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:47.000Z"
+    },
+    "rating": 1.8
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33075e"
+    },
+    "name": "Black Over-Ear Headphones.",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_57.png",
+    "price": 350,
+    "brand": "Generic",
+    "description": "Black Over-Ear Headphones. is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Black Over-Ear Headphones. stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 6,
+    "barcode": "54",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:48.000Z"
+    },
+    "rating": 4.1
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33075f"
+    },
+    "name": " Cream Over-Ear Headphones.",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_58.png",
+    "price": 400,
+    "brand": "Generic",
+    "description": " Cream Over-Ear Headphones. is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the  Cream Over-Ear Headphones. stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 2,
+    "barcode": "55",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:49.000Z"
+    },
+    "rating": 4
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330760"
+    },
+    "name": " ASUS ROG Gaming Headset with Accessories.",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_59.png",
+    "price": 650,
+    "brand": "ASUS",
+    "description": " ASUS ROG Gaming Headset with Accessories. is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the  ASUS ROG Gaming Headset with Accessories. stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 7,
+    "barcode": "56",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:50.000Z"
+    },
+    "rating": 2.7
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330761"
+    },
+    "name": "Pink Gaming Headset with Microphone.",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_60.png",
+    "price": 500,
+    "brand": "Generic",
+    "description": "Pink Gaming Headset with Microphone. is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Pink Gaming Headset with Microphone. stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 1,
+    "barcode": "57",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:51.000Z"
+    },
+    "rating": 1.1
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330762"
+    },
+    "name": " Black and Green Gaming Headset with Microphone.",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_61.png",
+    "price": 280,
+    "brand": "Generic",
+    "description": " Black and Green Gaming Headset with Microphone. is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the  Black and Green Gaming Headset with Microphone. stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 6,
+    "barcode": "58",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:52.000Z"
+    },
+    "rating": 3.4
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330763"
+    },
+    "name": "Blue and Black Gaming Headset with Microphone.",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_62.png",
+    "price": 320,
+    "brand": "Generic",
+    "description": "Blue and Black Gaming Headset with Microphone. is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Blue and Black Gaming Headset with Microphone. stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 4,
+    "barcode": "59",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:53.000Z"
+    },
+    "rating": 2.4
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330764"
+    },
+    "name": "Black Gaming Headset with Detachable Microphone.",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_63.png",
+    "price": 480,
+    "brand": "Generic",
+    "description": "Black Gaming Headset with Detachable Microphone. is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Black Gaming Headset with Detachable Microphone. stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 4,
+    "barcode": "60",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:54.000Z"
+    },
+    "rating": 4.7
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330765"
+    },
+    "name": "Black and Blue Gaming Headset with Microphone.",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_64.png",
+    "price": 580,
+    "brand": "Generic",
+    "description": "Black and Blue Gaming Headset with Microphone. is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Black and Blue Gaming Headset with Microphone. stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 7,
+    "barcode": "61",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:55.000Z"
+    },
+    "rating": 4.1
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330766"
+    },
+    "name": "Green and Brown Mechanical Keyboard.",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_65.png",
+    "price": 310,
+    "brand": "Generic",
+    "description": "Green and Brown Mechanical Keyboard. is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Green and Brown Mechanical Keyboard. stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 5,
+    "barcode": "62",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:56.000Z"
+    },
+    "rating": 2.1
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330767"
+    },
+    "name": " White RGB Mechanical Keyboard.",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_66.png",
+    "price": 490,
+    "brand": "Generic",
+    "description": " White RGB Mechanical Keyboard. is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the  White RGB Mechanical Keyboard. stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 3,
+    "barcode": "63",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:57.000Z"
+    },
+    "rating": 3.2
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330768"
+    },
+    "name": "Compact RGB Mechanical Keyboard.",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_67.png",
+    "price": 590,
+    "brand": "Generic",
+    "description": "Compact RGB Mechanical Keyboard. is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Compact RGB Mechanical Keyboard. stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 4,
+    "barcode": "64",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:58.000Z"
+    },
+    "rating": 3.8
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330769"
+    },
+    "name": "White and Pink Mechanical Keyboard.",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_68.png",
+    "price": 360,
+    "brand": "Generic",
+    "description": "White and Pink Mechanical Keyboard. is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the White and Pink Mechanical Keyboard. stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 5,
+    "barcode": "65",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:36:59.000Z"
+    },
+    "rating": 3.2
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33076a"
+    },
+    "name": "White and Pink Mechanical Keyboard.",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_69.png",
+    "price": 450,
+    "brand": "Generic",
+    "description": "White and Pink Mechanical Keyboard. is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the White and Pink Mechanical Keyboard. stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 10,
+    "barcode": "66",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:00.000Z"
+    },
+    "rating": 2.5
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33076b"
+    },
+    "name": "Light Blue and White Mechanical Keyboard.",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_70.png",
+    "price": 510,
+    "brand": "Generic",
+    "description": "Light Blue and White Mechanical Keyboard. is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Light Blue and White Mechanical Keyboard. stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 2,
+    "barcode": "67",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:01.000Z"
+    },
+    "rating": 4.1
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33076c"
+    },
+    "name": "Compact Light Blue and White Mechanical Keyboard.",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_71.png",
+    "price": 330,
+    "brand": "Generic",
+    "description": "Compact Light Blue and White Mechanical Keyboard. is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Compact Light Blue and White Mechanical Keyboard. stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 6,
+    "barcode": "68",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:02.000Z"
+    },
+    "rating": 2.9
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33076d"
+    },
+    "name": "Red and White Mechanical Keyboard.",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_72.png",
+    "price": 410,
+    "brand": "Generic",
+    "description": "Red and White Mechanical Keyboard. is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Red and White Mechanical Keyboard. stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 3,
+    "barcode": "69",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:03.000Z"
+    },
+    "rating": 4.2
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33076e"
+    },
+    "name": "Black and Grey Mechanical Keyboard.",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_73.png",
+    "price": 270,
+    "brand": "Generic",
+    "description": "Black and Grey Mechanical Keyboard. is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Black and Grey Mechanical Keyboard. stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 6,
+    "barcode": "70",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:04.000Z"
+    },
+    "rating": 4.2
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33076f"
+    },
+    "name": "Compact Black and Yellow Mechanical Keyboard.",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_74.png",
+    "price": 530,
+    "brand": "Generic",
+    "description": "Compact Black and Yellow Mechanical Keyboard. is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Compact Black and Yellow Mechanical Keyboard. stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 4,
+    "barcode": "71",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:05.000Z"
+    },
+    "rating": 3.1
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330770"
+    },
+    "name": "Black and Orange/Yellow Mechanical Keyboard.",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_75.png",
+    "price": 320,
+    "brand": "Generic",
+    "description": "Black and Orange/Yellow Mechanical Keyboard. is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Black and Orange/Yellow Mechanical Keyboard. stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 10,
+    "barcode": "72",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:06.000Z"
+    },
+    "rating": 3.5
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330771"
+    },
+    "name": "White and Pink Custom Mechanical Keyboard.",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_76.png",
+    "price": 490,
+    "brand": "Generic",
+    "description": "White and Pink Custom Mechanical Keyboard. is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the White and Pink Custom Mechanical Keyboard. stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 8,
+    "barcode": "73",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:07.000Z"
+    },
+    "rating": 4.2
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330772"
+    },
+    "name": "Light Blue and White Custom Mechanical Keyboard.",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_77.png",
+    "price": 590,
+    "brand": "Generic",
+    "description": "Light Blue and White Custom Mechanical Keyboard. is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Light Blue and White Custom Mechanical Keyboard. stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 3,
+    "barcode": "74",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:08.000Z"
+    },
+    "rating": 1.4
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330773"
+    },
+    "name": "Compact White Minimalist Mechanical Keyboard.",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_78.png",
+    "price": 300,
+    "brand": "Generic",
+    "description": "Compact White Minimalist Mechanical Keyboard. is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Compact White Minimalist Mechanical Keyboard. stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 5,
+    "barcode": "75",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:09.000Z"
+    },
+    "rating": 3.8
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330774"
+    },
+    "name": "Compact Black RGB Mechanical Keyboard.",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_79.png",
+    "price": 370,
+    "brand": "Generic",
+    "description": "Compact Black RGB Mechanical Keyboard. is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Compact Black RGB Mechanical Keyboard. stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 3,
+    "barcode": "76",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:10.000Z"
+    },
+    "rating": 3.9
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330775"
+    },
+    "name": "Compact White RGB Mechanical Keyboard.",
+    "category": {
+      "$oid": "682616d2a1abdde7732d9837"
+    },
+    "photo": "/uploads/product/product_80.png",
+    "price": 460,
+    "brand": "Generic",
+    "description": "Compact White RGB Mechanical Keyboard. is a high-quality accessories designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this accessories is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Compact White RGB Mechanical Keyboard. stands out in its category.\nExperience the perfect blend of form and function with this exceptional accessories.",
+    "quantity": 1,
+    "barcode": "77",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:11.000Z"
+    },
+    "rating": 2
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330776"
+    },
+    "name": "Intel Core i5 Processor.",
+    "category": {
+      "$oid": "68261712a1abdde7732d985f"
+    },
+    "photo": "/uploads/product/product_81.png",
+    "price": 1460,
+    "brand": "Intel",
+    "description": "Intel Core i5 Processor. is a high-quality cpu designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this cpu is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Intel Core i5 Processor. stands out in its category.\nExperience the perfect blend of form and function with this exceptional cpu.",
+    "quantity": 1,
+    "barcode": "78",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:12.000Z"
+    },
+    "rating": 4.5
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330777"
+    },
+    "name": "Intel Core i5 Processor.",
+    "category": {
+      "$oid": "68261712a1abdde7732d985f"
+    },
+    "photo": "/uploads/product/product_82.png",
+    "price": 1520,
+    "brand": "Intel",
+    "description": "Intel Core i5 Processor. is a high-quality cpu designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this cpu is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Intel Core i5 Processor. stands out in its category.\nExperience the perfect blend of form and function with this exceptional cpu.",
+    "quantity": 2,
+    "barcode": "79",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:13.000Z"
+    },
+    "rating": 1.3
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330778"
+    },
+    "name": " Intel Core i7 Processor.",
+    "category": {
+      "$oid": "68261712a1abdde7732d985f"
+    },
+    "photo": "/uploads/product/product_83.png",
+    "price": 2340,
+    "brand": "Intel",
+    "description": " Intel Core i7 Processor. is a high-quality cpu designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this cpu is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the  Intel Core i7 Processor. stands out in its category.\nExperience the perfect blend of form and function with this exceptional cpu.",
+    "quantity": 10,
+    "barcode": "80",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:14.000Z"
+    },
+    "rating": 2.7
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330779"
+    },
+    "name": " Intel Core i7 Processor.",
+    "category": {
+      "$oid": "68261712a1abdde7732d985f"
+    },
+    "photo": "/uploads/product/product_84.png",
+    "price": 2420,
+    "brand": "Intel",
+    "description": " Intel Core i7 Processor. is a high-quality cpu designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this cpu is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the  Intel Core i7 Processor. stands out in its category.\nExperience the perfect blend of form and function with this exceptional cpu.",
+    "quantity": 10,
+    "barcode": "81",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:15.000Z"
+    },
+    "rating": 2.7
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33077a"
+    },
+    "name": "Intel Core i5 Processor (12th Gen)",
+    "category": {
+      "$oid": "68261712a1abdde7732d985f"
+    },
+    "photo": "/uploads/product/product_85.png",
+    "price": 1280,
+    "brand": "Intel",
+    "description": "Intel Core i5 Processor (12th Gen) is a high-quality cpu designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this cpu is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Intel Core i5 Processor (12th Gen) stands out in its category.\nExperience the perfect blend of form and function with this exceptional cpu.",
+    "quantity": 5,
+    "barcode": "82",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:16.000Z"
+    },
+    "rating": 2.4
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33077b"
+    },
+    "name": "Intel Core i5 Processor (12th Gen)",
+    "category": {
+      "$oid": "68261712a1abdde7732d985f"
+    },
+    "photo": "/uploads/product/product_86.png",
+    "price": 1540,
+    "brand": "Intel",
+    "description": "Intel Core i5 Processor (12th Gen) is a high-quality cpu designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this cpu is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Intel Core i5 Processor (12th Gen) stands out in its category.\nExperience the perfect blend of form and function with this exceptional cpu.",
+    "quantity": 3,
+    "barcode": "83",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:17.000Z"
+    },
+    "rating": 1.1
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33077c"
+    },
+    "name": " Intel Core i5 Processor (12th Gen)",
+    "category": {
+      "$oid": "68261712a1abdde7732d985f"
+    },
+    "photo": "/uploads/product/product_87.png",
+    "price": 1330,
+    "brand": "Intel",
+    "description": " Intel Core i5 Processor (12th Gen) is a high-quality cpu designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this cpu is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the  Intel Core i5 Processor (12th Gen) stands out in its category.\nExperience the perfect blend of form and function with this exceptional cpu.",
+    "quantity": 8,
+    "barcode": "84",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:18.000Z"
+    },
+    "rating": 3.2
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33077d"
+    },
+    "name": "Intel Core i5 Processor (12th Gen)",
+    "category": {
+      "$oid": "68261712a1abdde7732d985f"
+    },
+    "photo": "/uploads/product/product_88.png",
+    "price": 1500,
+    "brand": "Intel",
+    "description": "Intel Core i5 Processor (12th Gen) is a high-quality cpu designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this cpu is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Intel Core i5 Processor (12th Gen) stands out in its category.\nExperience the perfect blend of form and function with this exceptional cpu.",
+    "quantity": 8,
+    "barcode": "85",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:19.000Z"
+    },
+    "rating": 1.6
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33077e"
+    },
+    "name": " Intel Core i7 Processor (12th Gen)",
+    "category": {
+      "$oid": "68261712a1abdde7732d985f"
+    },
+    "photo": "/uploads/product/product_89.png",
+    "price": 2600,
+    "brand": "Intel",
+    "description": " Intel Core i7 Processor (12th Gen) is a high-quality cpu designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this cpu is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the  Intel Core i7 Processor (12th Gen) stands out in its category.\nExperience the perfect blend of form and function with this exceptional cpu.",
+    "quantity": 10,
+    "barcode": "86",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:20.000Z"
+    },
+    "rating": 1.8
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33077f"
+    },
+    "name": "ntel Core i5 Processor (13th Gen).",
+    "category": {
+      "$oid": "68261712a1abdde7732d985f"
+    },
+    "photo": "/uploads/product/product_90.png",
+    "price": 1310,
+    "brand": "Generic",
+    "description": "ntel Core i5 Processor (13th Gen). is a high-quality cpu designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this cpu is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the ntel Core i5 Processor (13th Gen). stands out in its category.\nExperience the perfect blend of form and function with this exceptional cpu.",
+    "quantity": 4,
+    "barcode": "87",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:21.000Z"
+    },
+    "rating": 2.4
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330780"
+    },
+    "name": "Black PC Case.",
+    "category": "case",
+    "photo": "/uploads/product/product_91.png",
+    "price": 380,
+    "brand": "Generic",
+    "description": "Black PC Case. is a high-quality case designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this case is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Black PC Case. stands out in its category.\nExperience the perfect blend of form and function with this exceptional case.",
+    "quantity": 9,
+    "barcode": "88",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:22.000Z"
+    },
+    "rating": 1.8
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330781"
+    },
+    "name": "White PC Case with Glass Panel and RGB.",
+    "category": "case",
+    "photo": "/uploads/product/product_92.png",
+    "price": 470,
+    "brand": "Generic",
+    "description": "White PC Case with Glass Panel and RGB. is a high-quality case designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this case is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the White PC Case with Glass Panel and RGB. stands out in its category.\nExperience the perfect blend of form and function with this exceptional case.",
+    "quantity": 7,
+    "barcode": "89",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:23.000Z"
+    },
+    "rating": 3.3
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330782"
+    },
+    "name": "Black PC Case with Glass Panel and RGB.",
+    "category": "case",
+    "photo": "/uploads/product/product_93.png",
+    "price": 530,
+    "brand": "Generic",
+    "description": "Black PC Case with Glass Panel and RGB. is a high-quality case designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this case is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Black PC Case with Glass Panel and RGB. stands out in its category.\nExperience the perfect blend of form and function with this exceptional case.",
+    "quantity": 7,
+    "barcode": "90",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:24.000Z"
+    },
+    "rating": 3.5
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330783"
+    },
+    "name": "Compact Black PC Case with Glass Panel.",
+    "category": "case",
+    "photo": "/uploads/product/product_94.png",
+    "price": 350,
+    "brand": "Generic",
+    "description": "Compact Black PC Case with Glass Panel. is a high-quality case designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this case is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Compact Black PC Case with Glass Panel. stands out in its category.\nExperience the perfect blend of form and function with this exceptional case.",
+    "quantity": 2,
+    "barcode": "91",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:25.000Z"
+    },
+    "rating": 3.7
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330784"
+    },
+    "name": "White PC Case with Glass Panel and RGB.",
+    "category": "case",
+    "photo": "/uploads/product/product_95.png",
+    "price": 430,
+    "brand": "Generic",
+    "description": "White PC Case with Glass Panel and RGB. is a high-quality case designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this case is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the White PC Case with Glass Panel and RGB. stands out in its category.\nExperience the perfect blend of form and function with this exceptional case.",
+    "quantity": 7,
+    "barcode": "92",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:26.000Z"
+    },
+    "rating": 1.3
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330785"
+    },
+    "name": "Black PC Case with Glass Panel and RGB.",
+    "category": "case",
+    "photo": "/uploads/product/product_96.png",
+    "price": 290,
+    "brand": "Generic",
+    "description": "Black PC Case with Glass Panel and RGB. is a high-quality case designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this case is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Black PC Case with Glass Panel and RGB. stands out in its category.\nExperience the perfect blend of form and function with this exceptional case.",
+    "quantity": 3,
+    "barcode": "93",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:27.000Z"
+    },
+    "rating": 3.3
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330786"
+    },
+    "name": "White PC Case with Glass Panel and RGB.",
+    "category": "case",
+    "photo": "/uploads/product/product_97.png",
+    "price": 550,
+    "brand": "Generic",
+    "description": "White PC Case with Glass Panel and RGB. is a high-quality case designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this case is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the White PC Case with Glass Panel and RGB. stands out in its category.\nExperience the perfect blend of form and function with this exceptional case.",
+    "quantity": 2,
+    "barcode": "94",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:28.000Z"
+    },
+    "rating": 1.4
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330787"
+    },
+    "name": "Black PC Case with Glass Panel and RGB.",
+    "category": "case",
+    "photo": "/uploads/product/product_98.png",
+    "price": 340,
+    "brand": "Generic",
+    "description": "Black PC Case with Glass Panel and RGB. is a high-quality case designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this case is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Black PC Case with Glass Panel and RGB. stands out in its category.\nExperience the perfect blend of form and function with this exceptional case.",
+    "quantity": 1,
+    "barcode": "95",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:29.000Z"
+    },
+    "rating": 2
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330788"
+    },
+    "name": "CPU Air Cooler Box.",
+    "category": "case",
+    "photo": "/uploads/product/product_99.png",
+    "price": 510,
+    "brand": "Generic",
+    "description": "CPU Air Cooler Box. is a high-quality case designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this case is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the CPU Air Cooler Box. stands out in its category.\nExperience the perfect blend of form and function with this exceptional case.",
+    "quantity": 10,
+    "barcode": "96",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:30.000Z"
+    },
+    "rating": 1.6
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330789"
+    },
+    "name": "CPU Air Cooler.",
+    "category": "case",
+    "photo": "/uploads/product/product_100.png",
+    "price": 610,
+    "brand": "Generic",
+    "description": "CPU Air Cooler. is a high-quality case designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this case is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the CPU Air Cooler. stands out in its category.\nExperience the perfect blend of form and function with this exceptional case.",
+    "quantity": 2,
+    "barcode": "97",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:31.000Z"
+    },
+    "rating": 4.1
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33078a"
+    },
+    "name": " White Power Supply Unit (PSU)",
+    "category": {
+      "$oid": "6826171ca1abdde7732d9864"
+    },
+    "photo": "/uploads/product/product_101.png",
+    "price": 320,
+    "brand": "Generic",
+    "description": " White Power Supply Unit (PSU) is a high-quality power designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this power is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the  White Power Supply Unit (PSU) stands out in its category.\nExperience the perfect blend of form and function with this exceptional power.",
+    "quantity": 8,
+    "barcode": "98",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:32.000Z"
+    },
+    "rating": 4.5
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33078b"
+    },
+    "name": "Black ATX Power Supply",
+    "category": {
+      "$oid": "6826171ca1abdde7732d9864"
+    },
+    "photo": "/uploads/product/product_102.png",
+    "price": 390,
+    "brand": "Generic",
+    "description": "Black ATX Power Supply is a high-quality power designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this power is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Black ATX Power Supply stands out in its category.\nExperience the perfect blend of form and function with this exceptional power.",
+    "quantity": 7,
+    "barcode": "99",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:33.000Z"
+    },
+    "rating": 2
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33078c"
+    },
+    "name": "White ATX Power Supply",
+    "category": {
+      "$oid": "6826171ca1abdde7732d9864"
+    },
+    "photo": "/uploads/product/product_103.png",
+    "price": 480,
+    "brand": "Generic",
+    "description": "White ATX Power Supply is a high-quality power designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this power is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the White ATX Power Supply stands out in its category.\nExperience the perfect blend of form and function with this exceptional power.",
+    "quantity": 10,
+    "barcode": "100",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:34.000Z"
+    },
+    "rating": 2
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33078d"
+    },
+    "name": " White Power Supply Unit (PSU)",
+    "category": {
+      "$oid": "6826171ca1abdde7732d9864"
+    },
+    "photo": "/uploads/product/product_104.png",
+    "price": 540,
+    "brand": "Generic",
+    "description": " White Power Supply Unit (PSU) is a high-quality power designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this power is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the  White Power Supply Unit (PSU) stands out in its category.\nExperience the perfect blend of form and function with this exceptional power.",
+    "quantity": 9,
+    "barcode": "101",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:35.000Z"
+    },
+    "rating": 3.4
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33078e"
+    },
+    "name": "Corsair Power Supply.",
+    "category": {
+      "$oid": "6826171ca1abdde7732d9864"
+    },
+    "photo": "/uploads/product/product_105.png",
+    "price": 360,
+    "brand": "Corsair",
+    "description": "Corsair Power Supply. is a high-quality power designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this power is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Corsair Power Supply. stands out in its category.\nExperience the perfect blend of form and function with this exceptional power.",
+    "quantity": 9,
+    "barcode": "102",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:36.000Z"
+    },
+    "rating": 3.2
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33078f"
+    },
+    "name": "Cooler Master Power Supply.",
+    "category": {
+      "$oid": "6826171ca1abdde7732d9864"
+    },
+    "photo": "/uploads/product/product_106.png",
+    "price": 440,
+    "brand": "Cooler Master",
+    "description": "Cooler Master Power Supply. is a high-quality power designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this power is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Cooler Master Power Supply. stands out in its category.\nExperience the perfect blend of form and function with this exceptional power.",
+    "quantity": 9,
+    "barcode": "103",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:37.000Z"
+    },
+    "rating": 1.7
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330790"
+    },
+    "name": "Seasonic Power Supply.",
+    "category": {
+      "$oid": "6826171ca1abdde7732d9864"
+    },
+    "photo": "/uploads/product/product_107.png",
+    "price": 300,
+    "brand": "Seasonic",
+    "description": "Seasonic Power Supply. is a high-quality power designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this power is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Seasonic Power Supply. stands out in its category.\nExperience the perfect blend of form and function with this exceptional power.",
+    "quantity": 10,
+    "barcode": "104",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:38.000Z"
+    },
+    "rating": 3.7
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330791"
+    },
+    "name": "Compact White Power Supply Unit (PSU).",
+    "category": {
+      "$oid": "6826171ca1abdde7732d9864"
+    },
+    "photo": "/uploads/product/product_108.png",
+    "price": 560,
+    "brand": "Generic",
+    "description": "Compact White Power Supply Unit (PSU). is a high-quality power designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this power is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Compact White Power Supply Unit (PSU). stands out in its category.\nExperience the perfect blend of form and function with this exceptional power.",
+    "quantity": 3,
+    "barcode": "105",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:39.000Z"
+    },
+    "rating": 4.2
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330792"
+    },
+    "name": "Corsair Power Supply.",
+    "category": {
+      "$oid": "6826171ca1abdde7732d9864"
+    },
+    "photo": "/uploads/product/product_109.png",
+    "price": 350,
+    "brand": "Corsair",
+    "description": "Corsair Power Supply. is a high-quality power designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this power is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Corsair Power Supply. stands out in its category.\nExperience the perfect blend of form and function with this exceptional power.",
+    "quantity": 10,
+    "barcode": "106",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:40.000Z"
+    },
+    "rating": 2.4
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330793"
+    },
+    "name": "White SSD Box.",
+    "category": {
+      "$oid": "68261704a1abdde7732d9854"
+    },
+    "photo": "/uploads/product/product_110.png",
+    "price": 520,
+    "brand": "Generic",
+    "description": "White SSD Box. is a high-quality hardrive designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this hardrive is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the White SSD Box. stands out in its category.\nExperience the perfect blend of form and function with this exceptional hardrive.",
+    "quantity": 4,
+    "barcode": "107",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:41.000Z"
+    },
+    "rating": 2.1
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330794"
+    },
+    "name": " Black SSD Box.",
+    "category": {
+      "$oid": "68261704a1abdde7732d9854"
+    },
+    "photo": "/uploads/product/product_111.png",
+    "price": 620,
+    "brand": "Generic",
+    "description": " Black SSD Box. is a high-quality hardrive designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this hardrive is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the  Black SSD Box. stands out in its category.\nExperience the perfect blend of form and function with this exceptional hardrive.",
+    "quantity": 8,
+    "barcode": "108",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:42.000Z"
+    },
+    "rating": 3.2
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330795"
+    },
+    "name": "White and Yellow SSD Box.",
+    "category": {
+      "$oid": "68261704a1abdde7732d9854"
+    },
+    "photo": "/uploads/product/product_112.png",
+    "price": 330,
+    "brand": "Generic",
+    "description": "White and Yellow SSD Box. is a high-quality hardrive designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this hardrive is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the White and Yellow SSD Box. stands out in its category.\nExperience the perfect blend of form and function with this exceptional hardrive.",
+    "quantity": 1,
+    "barcode": "109",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:43.000Z"
+    },
+    "rating": 1.5
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330796"
+    },
+    "name": "White and Blue SSD Box.",
+    "category": {
+      "$oid": "68261704a1abdde7732d9854"
+    },
+    "photo": "/uploads/product/product_113.png",
+    "price": 400,
+    "brand": "Generic",
+    "description": "White and Blue SSD Box. is a high-quality hardrive designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this hardrive is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the White and Blue SSD Box. stands out in its category.\nExperience the perfect blend of form and function with this exceptional hardrive.",
+    "quantity": 10,
+    "barcode": "110",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:44.000Z"
+    },
+    "rating": 3.6
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330797"
+    },
+    "name": "White and Pink SSD Box.",
+    "category": {
+      "$oid": "68261704a1abdde7732d9854"
+    },
+    "photo": "/uploads/product/product_114.png",
+    "price": 490,
+    "brand": "Generic",
+    "description": "White and Pink SSD Box. is a high-quality hardrive designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this hardrive is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the White and Pink SSD Box. stands out in its category.\nExperience the perfect blend of form and function with this exceptional hardrive.",
+    "quantity": 8,
+    "barcode": "111",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:45.000Z"
+    },
+    "rating": 1.7
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330798"
+    },
+    "name": "Orange and Black SSD Box.",
+    "category": {
+      "$oid": "68261704a1abdde7732d9854"
+    },
+    "photo": "/uploads/product/product_115.png",
+    "price": 550,
+    "brand": "Generic",
+    "description": "Orange and Black SSD Box. is a high-quality hardrive designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this hardrive is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Orange and Black SSD Box. stands out in its category.\nExperience the perfect blend of form and function with this exceptional hardrive.",
+    "quantity": 2,
+    "barcode": "112",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:46.000Z"
+    },
+    "rating": 4.5
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b330799"
+    },
+    "name": "NVMe SSD",
+    "category": {
+      "$oid": "68261704a1abdde7732d9854"
+    },
+    "photo": "/uploads/product/product_116.png",
+    "price": 370,
+    "brand": "Generic",
+    "description": "NVMe SSD is a high-quality hardrive designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this hardrive is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the NVMe SSD stands out in its category.\nExperience the perfect blend of form and function with this exceptional hardrive.",
+    "quantity": 10,
+    "barcode": "113",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:47.000Z"
+    },
+    "rating": 1.1
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33079a"
+    },
+    "name": "RGB NVMe SSD Box",
+    "category": {
+      "$oid": "68261704a1abdde7732d9854"
+    },
+    "photo": "/uploads/product/product_117.png",
+    "price": 450,
+    "brand": "Generic",
+    "description": "RGB NVMe SSD Box is a high-quality hardrive designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this hardrive is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the RGB NVMe SSD Box stands out in its category.\nExperience the perfect blend of form and function with this exceptional hardrive.",
+    "quantity": 5,
+    "barcode": "114",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:48.000Z"
+    },
+    "rating": 1.4
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33079b"
+    },
+    "name": "SATA SSD",
+    "category": {
+      "$oid": "68261704a1abdde7732d9854"
+    },
+    "photo": "/uploads/product/product_118.png",
+    "price": 310,
+    "brand": "Generic",
+    "description": "SATA SSD is a high-quality hardrive designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this hardrive is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the SATA SSD stands out in its category.\nExperience the perfect blend of form and function with this exceptional hardrive.",
+    "quantity": 9,
+    "barcode": "115",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:49.000Z"
+    },
+    "rating": 1.9
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33079c"
+    },
+    "name": "AORUS SSD Box",
+    "category": {
+      "$oid": "68261704a1abdde7732d9854"
+    },
+    "photo": "/uploads/product/product_119.png",
+    "price": 570,
+    "brand": "Gigabyte",
+    "description": "AORUS SSD Box is a high-quality hardrive designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this hardrive is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the AORUS SSD Box stands out in its category.\nExperience the perfect blend of form and function with this exceptional hardrive.",
+    "quantity": 5,
+    "barcode": "116",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:50.000Z"
+    },
+    "rating": 3.3
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33079d"
+    },
+    "name": "M.2 SSD",
+    "category": {
+      "$oid": "68261704a1abdde7732d9854"
+    },
+    "photo": "/uploads/product/product_120.png",
+    "price": 360,
+    "brand": "Generic",
+    "description": "M.2 SSD is a high-quality hardrive designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this hardrive is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the M.2 SSD stands out in its category.\nExperience the perfect blend of form and function with this exceptional hardrive.",
+    "quantity": 1,
+    "barcode": "117",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:51.000Z"
+    },
+    "rating": 3.7
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33079e"
+    },
+    "name": "Blue M.2 SSD Box",
+    "category": {
+      "$oid": "68261704a1abdde7732d9854"
+    },
+    "photo": "/uploads/product/product_121.png",
+    "price": 530,
+    "brand": "Generic",
+    "description": "Blue M.2 SSD Box is a high-quality hardrive designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this hardrive is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Blue M.2 SSD Box stands out in its category.\nExperience the perfect blend of form and function with this exceptional hardrive.",
+    "quantity": 9,
+    "barcode": "118",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:52.000Z"
+    },
+    "rating": 4.4
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b33079f"
+    },
+    "name": "Blue and White M.2 SSD Box",
+    "category": {
+      "$oid": "68261704a1abdde7732d9854"
+    },
+    "photo": "/uploads/product/product_122.png",
+    "price": 630,
+    "brand": "Generic",
+    "description": "Blue and White M.2 SSD Box is a high-quality hardrive designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this hardrive is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Blue and White M.2 SSD Box stands out in its category.\nExperience the perfect blend of form and function with this exceptional hardrive.",
+    "quantity": 6,
+    "barcode": "119",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:53.000Z"
+    },
+    "rating": 2.1
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b3307a0"
+    },
+    "name": "M.2 SSD",
+    "category": {
+      "$oid": "68261704a1abdde7732d9854"
+    },
+    "photo": "/uploads/product/product_123.png",
+    "price": 340,
+    "brand": "Generic",
+    "description": "M.2 SSD is a high-quality hardrive designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this hardrive is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the M.2 SSD stands out in its category.\nExperience the perfect blend of form and function with this exceptional hardrive.",
+    "quantity": 7,
+    "barcode": "120",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:54.000Z"
+    },
+    "rating": 2.4
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b3307a1"
+    },
+    "name": "Blue M.2 SSD Box",
+    "category": {
+      "$oid": "68261704a1abdde7732d9854"
+    },
+    "photo": "/uploads/product/product_124.png",
+    "price": 410,
+    "brand": "Generic",
+    "description": "Blue M.2 SSD Box is a high-quality hardrive designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this hardrive is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Blue M.2 SSD Box stands out in its category.\nExperience the perfect blend of form and function with this exceptional hardrive.",
+    "quantity": 1,
+    "barcode": "121",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:55.000Z"
+    },
+    "rating": 2.1
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b3307a2"
+    },
+    "name": "Blue SATA SSD Box",
+    "category": {
+      "$oid": "68261704a1abdde7732d9854"
+    },
+    "photo": "/uploads/product/product_125.png",
+    "price": 500,
+    "brand": "Generic",
+    "description": "Blue SATA SSD Box is a high-quality hardrive designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this hardrive is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Blue SATA SSD Box stands out in its category.\nExperience the perfect blend of form and function with this exceptional hardrive.",
+    "quantity": 8,
+    "barcode": "122",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:56.000Z"
+    },
+    "rating": 3.8
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b3307a3"
+    },
+    "name": "3.5 inch HDD",
+    "category": {
+      "$oid": "68261704a1abdde7732d9854"
+    },
+    "photo": "/uploads/product/product_126.png",
+    "price": 560,
+    "brand": "Generic",
+    "description": "3.5 inch HDD is a high-quality hardrive designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this hardrive is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the 3.5 inch HDD stands out in its category.\nExperience the perfect blend of form and function with this exceptional hardrive.",
+    "quantity": 5,
+    "barcode": "123",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:57.000Z"
+    },
+    "rating": 2.3
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b3307a4"
+    },
+    "name": "3.5 inch HDD",
+    "category": {
+      "$oid": "68261704a1abdde7732d9854"
+    },
+    "photo": "/uploads/product/product_127.png",
+    "price": 380,
+    "brand": "Generic",
+    "description": "3.5 inch HDD is a high-quality hardrive designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this hardrive is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the 3.5 inch HDD stands out in its category.\nExperience the perfect blend of form and function with this exceptional hardrive.",
+    "quantity": 9,
+    "barcode": "124",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:58.000Z"
+    },
+    "rating": 2.8
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b3307a5"
+    },
+    "name": "SATA SSD",
+    "category": {
+      "$oid": "68261704a1abdde7732d9854"
+    },
+    "photo": "/uploads/product/product_128.png",
+    "price": 460,
+    "brand": "Generic",
+    "description": "SATA SSD is a high-quality hardrive designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this hardrive is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the SATA SSD stands out in its category.\nExperience the perfect blend of form and function with this exceptional hardrive.",
+    "quantity": 9,
+    "barcode": "125",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:37:59.000Z"
+    },
+    "rating": 1.1
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b3307a6"
+    },
+    "name": "SATA SSD",
+    "category": {
+      "$oid": "68261704a1abdde7732d9854"
+    },
+    "photo": "/uploads/product/product_129.png",
+    "price": 320,
+    "brand": "Generic",
+    "description": "SATA SSD is a high-quality hardrive designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this hardrive is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the SATA SSD stands out in its category.\nExperience the perfect blend of form and function with this exceptional hardrive.",
+    "quantity": 9,
+    "barcode": "126",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:38:00.000Z"
+    },
+    "rating": 3.5
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b3307a7"
+    },
+    "name": "CPU Air Cooler",
+    "category": {
+      "$oid": "68261704a1abdde7732d9854"
+    },
+    "photo": "/uploads/product/product_130.png",
+    "price": 580,
+    "brand": "Generic",
+    "description": "CPU Air Cooler is a high-quality hardrive designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this hardrive is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the CPU Air Cooler stands out in its category.\nExperience the perfect blend of form and function with this exceptional hardrive.",
+    "quantity": 5,
+    "barcode": "127",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:38:01.000Z"
+    },
+    "rating": 4
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b3307a8"
+    },
+    "name": "Black PC Case",
+    "category": {
+      "$oid": "68261725a1abdde7732d9869"
+    },
+    "photo": "/uploads/product/product_131.png",
+    "price": 600,
+    "brand": "Generic",
+    "description": "Black PC Case is a high-quality main designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this main is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Black PC Case stands out in its category.\nExperience the perfect blend of form and function with this exceptional main.",
+    "quantity": 10,
+    "barcode": "128",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:38:02.000Z"
+    },
+    "rating": 2.7
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b3307a9"
+    },
+    "name": "ATX Motherboard",
+    "category": {
+      "$oid": "68261725a1abdde7732d9869"
+    },
+    "photo": "/uploads/product/product_132.png",
+    "price": 750,
+    "brand": "Generic",
+    "description": "ATX Motherboard is a high-quality main designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this main is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the ATX Motherboard stands out in its category.\nExperience the perfect blend of form and function with this exceptional main.",
+    "quantity": 10,
+    "barcode": "129",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:38:03.000Z"
+    },
+    "rating": 1.2
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b3307aa"
+    },
+    "name": "ASUS ROG Motherboard Box",
+    "category": {
+      "$oid": "68261725a1abdde7732d9869"
+    },
+    "photo": "/uploads/product/product_133.png",
+    "price": 520,
+    "brand": "ASUS",
+    "description": "ASUS ROG Motherboard Box is a high-quality main designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this main is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the ASUS ROG Motherboard Box stands out in its category.\nExperience the perfect blend of form and function with this exceptional main.",
+    "quantity": 4,
+    "barcode": "130",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:38:04.000Z"
+    },
+    "rating": 2.9
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b3307ab"
+    },
+    "name": "Motherboard Box",
+    "category": {
+      "$oid": "68261725a1abdde7732d9869"
+    },
+    "photo": "/uploads/product/product_134.png",
+    "price": 880,
+    "brand": "Generic",
+    "description": "Motherboard Box is a high-quality main designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this main is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Motherboard Box stands out in its category.\nExperience the perfect blend of form and function with this exceptional main.",
+    "quantity": 8,
+    "barcode": "131",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:38:05.000Z"
+    },
+    "rating": 2.1
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b3307ac"
+    },
+    "name": "Motherboard Box",
+    "category": {
+      "$oid": "68261725a1abdde7732d9869"
+    },
+    "photo": "/uploads/product/product_135.png",
+    "price": 490,
+    "brand": "Generic",
+    "description": "Motherboard Box is a high-quality main designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this main is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Motherboard Box stands out in its category.\nExperience the perfect blend of form and function with this exceptional main.",
+    "quantity": 4,
+    "barcode": "132",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:38:06.000Z"
+    },
+    "rating": 2.8
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b3307ad"
+    },
+    "name": "ASRock Motherboard",
+    "category": {
+      "$oid": "68261725a1abdde7732d9869"
+    },
+    "photo": "/uploads/product/product_136.png",
+    "price": 920,
+    "brand": "ASRock",
+    "description": "ASRock Motherboard is a high-quality main designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this main is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the ASRock Motherboard stands out in its category.\nExperience the perfect blend of form and function with this exceptional main.",
+    "quantity": 6,
+    "barcode": "133",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:38:07.000Z"
+    },
+    "rating": 1.5
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b3307ae"
+    },
+    "name": "ASRock Motherboard",
+    "category": {
+      "$oid": "68261725a1abdde7732d9869"
+    },
+    "photo": "/uploads/product/product_137.png",
+    "price": 680,
+    "brand": "ASRock",
+    "description": "ASRock Motherboard is a high-quality main designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this main is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the ASRock Motherboard stands out in its category.\nExperience the perfect blend of form and function with this exceptional main.",
+    "quantity": 10,
+    "barcode": "134",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:38:08.000Z"
+    },
+    "rating": 3.6
+  },
+  {
+    "_id": {
+      "$oid": "6825ddfd60b1f3848b3307af"
+    },
+    "name": "Gigabyte AORUS Motherboard",
+    "category": {
+      "$oid": "68261725a1abdde7732d9869"
+    },
+    "photo": "/uploads/product/product_138.png",
+    "price": 710,
+    "brand": "Gigabyte",
+    "description": "Gigabyte AORUS Motherboard is a high-quality main designed for performance and reliability.\nPerfect for gamers, professionals, or general use, this main is built to last.\nIt features advanced engineering and premium materials for top-tier durability.\nWith sleek design and powerful features, the Gigabyte AORUS Motherboard stands out in its category.\nExperience the perfect blend of form and function with this exceptional main.",
+    "quantity": 2,
+    "barcode": "135",
+    "state": "ACTIVE",
+    "createdAt": {
+      "$date": "2025-05-12T15:38:09.000Z"
+    },
+    "rating": 1.5
+  },
+  {
+    "_id": {
+      "$oid": "682735169a72cd6015fea69f"
+    },
+    "name": "a",
+    "brand": "NVIDIA",
+    "description": "a",
+    "category": {
+      "$oid": "682616b6a1abdde7732d982d"
+    },
+    "quantity": 1,
+    "price": 11,
+    "barcode": "a",
+    "photo": "",
+    "state": "ACTIVE",
+    "rating": 0,
+    "createdAt": {
+      "$date": "2025-05-16T12:52:38.391Z"
+    },
+    "__v": 0
+  }
+]

@@ -1,0 +1,77 @@
+[{
+  "_id": {
+    "$oid": "682616b6a1abdde7732d982d"
+  },
+  "description": "computer",
+  "state": "ACTIVE",
+  "createdAt": {
+    "$date": "2025-05-15T16:30:46.982Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682616c9a1abdde7732d9832"
+  },
+  "description": "monitor",
+  "state": "ACTIVE",
+  "createdAt": {
+    "$date": "2025-05-15T16:31:05.559Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682616d2a1abdde7732d9837"
+  },
+  "description": "accessories",
+  "state": "ACTIVE",
+  "createdAt": {
+    "$date": "2025-05-15T16:31:14.927Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68261704a1abdde7732d9854"
+  },
+  "description": "hardrive",
+  "state": "ACTIVE",
+  "createdAt": {
+    "$date": "2025-05-15T16:32:04.012Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68261712a1abdde7732d985f"
+  },
+  "description": "cpu",
+  "state": "ACTIVE",
+  "createdAt": {
+    "$date": "2025-05-15T16:32:18.112Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6826171ca1abdde7732d9864"
+  },
+  "description": "power",
+  "state": "ACTIVE",
+  "createdAt": {
+    "$date": "2025-05-15T16:32:28.142Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68261725a1abdde7732d9869"
+  },
+  "description": "main",
+  "state": "ACTIVE",
+  "createdAt": {
+    "$date": "2025-05-15T16:32:37.754Z"
+  },
+  "__v": 0
+}]

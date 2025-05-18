@@ -1,0 +1,101 @@
+[
+{
+  "_id": {
+    "$oid": "6821baefc73ec22edfa5b2ee"
+  },
+  "email": "nguyenthuanan01012003@gmail.com",
+  "fullname": "An Nguyễn",
+  "profileImage": "https://lh3.googleusercontent.com/a/ACg8ocLkV0qVB8xj3JSKOHkQNLpxoGNR-4kWxEMf5gFmb3i1Jw-NWO4=s96-c",
+  "authType": "google",
+  "role": "user",
+  "googleId": "105936877455780924899",
+  "addresses": [
+    {
+      "address": "a",
+      "isDefault": true,
+      "_id": {
+        "$oid": "6821e6724a6b9375aa0964bb"
+      }
+    },
+    {
+      "address": "ânnaaa",
+      "isDefault": false,
+      "_id": {
+        "$oid": "6821e6724a6b9375aa0964bc"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-05-12T09:10:07.922Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-15T12:40:40.633Z"
+  },
+  "__v": 4,
+  "phone": "0987654321"
+},
+{
+  "_id": {
+    "$oid": "6821bb0cc73ec22edfa5b2f5"
+  },
+  "email": "thuanan01012003@gmail.com",
+  "fullname": "Nguyen Thuan An",
+  "password": "$2b$10$RMXPNfkpelrvbxUkF5.lOOs7fp2eMj8DUxgdBMgqqRqLOLrb.Lmpe",
+  "addresses": [
+    {
+      "address": "a",
+      "isDefault": true,
+      "_id": {
+        "$oid": "6821bb0cc73ec22edfa5b2f6"
+      }
+    }
+  ],
+  "profileImage": "",
+  "authType": "local",
+  "role": "user",
+  "createdAt": {
+    "$date": "2025-05-12T09:10:36.299Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-12T09:10:36.303Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6821cc96c73ec22edfa5b414"
+  },
+  "email": "521h0002@student.tdtu.edu.vn",
+  "fullname": "Nguyễn Thuận An",
+  "profileImage": "https://lh3.googleusercontent.com/a/ACg8ocLI07rxbSsk8yRkv4Oyr9bPKYJJIiHid4CM0PQJBsgsGT9K_Q=s96-c",
+  "authType": "google",
+  "role": "user",
+  "googleId": "110154186967735264498",
+  "addresses": [],
+  "createdAt": {
+    "$date": "2025-05-12T10:25:26.541Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-12T12:22:50.238Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6821e8616b38cc3dbbdaf148"
+  },
+  "email": "anxitrum0101@gmail.com",
+  "fullname": "Nguyen An",
+  "profileImage": "https://lh3.googleusercontent.com/a/ACg8ocJ9NxkQQz54MB6gxEWiFc7-MalbFAMB1mB4Jkukll2BT_LSMw=s96-c",
+  "authType": "google",
+  "role": "user",
+  "googleId": "109002123469644119176",
+  "addresses": [],
+  "createdAt": {
+    "$date": "2025-05-12T12:24:01.369Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-12T12:24:01.384Z"
+  },
+  "__v": 0
+}]

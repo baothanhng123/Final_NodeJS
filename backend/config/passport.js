@@ -91,63 +91,6 @@ if (process.env.GOOGLE_CLIENT_ID && process.env.GOOGLE_CLIENT_SECRET) {
     }));
 }
 
-// Facebook Strategy
-if (process.env.FACEBOOK_APP_ID && process.env.FACEBOOK_APP_SECRET) {
-    passport.use(new FacebookStrategy({
-        clientID: process.env.FACEBOOK_APP_ID,
-        clientSecret: process.env.FACEBOOK_APP_SECRET,
-        callbackURL: '/api/auth/facebook/callback',
-        profileFields: ['id', 'emails', 'name', 'picture.type(large)']
-    }, async (accessToken, refreshToken, profile, done) => {
-        try {
-            // Kiểm tra xem có email từ Facebook không
-            if (!profile.emails || !profile.emails[0] || !profile.emails[0].value) {
-                return done(new Error('Email not provided by Facebook'));
-            }
-
-            const email = profile.emails[0].value;
-            const facebookId = profile.id;
-            const fullname = `${profile.name.givenName} ${profile.name.familyName}` || 'User';
-            const profileImage = profile.photos?.[0]?.value || '';
-
-            // Tìm user theo facebookId hoặc email
-            let user = await User.findOne({
-                $or: [
-                    { facebookId: facebookId },
-                    { email: email }
-                ]
-            });
-
-            if (user) {
-                // Nếu tìm thấy user, cập nhật thông tin Facebook nếu cần
-                if (!user.facebookId) {
-                    user.facebookId = facebookId;
-                }
-                if (!user.profileImage && profileImage) {
-                    user.profileImage = profileImage;
-                }
-                if (!user.fullname && fullname) {
-                    user.fullname = fullname;
-                }
-                await user.save();
-            } else {
-                // Tạo user mới nếu chưa tồn tại
-                user = await User.create({
-                    email: email,
-                    facebookId: facebookId,
-                    fullname: fullname,
-                    profileImage: profileImage,
-                    authType: 'facebook'
-                });
-            }
-
-            return done(null, user);
-        } catch (error) {
-            console.error('Facebook authentication error:', error);
-            return done(error);
-        }
-    }));
-}
 
 passport.serializeUser((user, done) => {
     done(null, user.id);

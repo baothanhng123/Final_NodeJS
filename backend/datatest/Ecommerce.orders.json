@@ -1,0 +1,1816 @@
+[
+  {
+    "user": {
+      "$oid": "6821e8616b38cc3dbbdaf148"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33079c"
+        },
+        "quantity": 1,
+        "price": 570
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330757"
+        },
+        "quantity": 3,
+        "price": 780
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330797"
+        },
+        "quantity": 1,
+        "price": 490
+      }
+    ],
+    "total": 3400,
+    "status": "CANCELLED",
+    "createdAt": {
+      "$date": "2025-04-19T15:57:18.498937"
+    },
+    "updatedAt": {
+      "$date": "2025-04-22T15:57:18.498937"
+    }
+  },
+  {
+    "user": {
+      "$oid": "6821baefc73ec22edfa5b2ee"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b3307a7"
+        },
+        "quantity": 2,
+        "price": 580
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330767"
+        },
+        "quantity": 3,
+        "price": 490
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33079b"
+        },
+        "quantity": 3,
+        "price": 310
+      }
+    ],
+    "total": 3560,
+    "status": "PENDING",
+    "createdAt": {
+      "$date": "2025-04-20T15:57:18.499011"
+    },
+    "updatedAt": {
+      "$date": "2025-04-23T15:57:18.499011"
+    }
+  },
+  {
+    "user": {
+      "$oid": "6821baefc73ec22edfa5b2ee"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330749"
+        },
+        "quantity": 3,
+        "price": 2185
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330790"
+        },
+        "quantity": 1,
+        "price": 300
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330757"
+        },
+        "quantity": 2,
+        "price": 780
+      }
+    ],
+    "total": 8415,
+    "status": "CANCELLED",
+    "createdAt": {
+      "$date": "2025-04-16T15:57:18.499060"
+    },
+    "updatedAt": {
+      "$date": "2025-04-19T15:57:18.499060"
+    }
+  },
+  {
+    "user": {
+      "$oid": "6821e8616b38cc3dbbdaf148"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33074b"
+        },
+        "quantity": 2,
+        "price": 1000
+      }
+    ],
+    "total": 2000,
+    "status": "COMPLETED",
+    "createdAt": {
+      "$date": "2025-05-09T15:57:18.499094"
+    },
+    "updatedAt": {
+      "$date": "2025-05-14T15:57:18.499094"
+    }
+  },
+  {
+    "user": {
+      "$oid": "6821baefc73ec22edfa5b2ee"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33073c"
+        },
+        "quantity": 3,
+        "price": 6885
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33078b"
+        },
+        "quantity": 1,
+        "price": 390
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330797"
+        },
+        "quantity": 2,
+        "price": 490
+      }
+    ],
+    "total": 22025,
+    "status": "CANCELLED",
+    "createdAt": {
+      "$date": "2025-05-10T15:57:18.499128"
+    },
+    "updatedAt": {
+      "$date": "2025-05-15T15:57:18.499128"
+    }
+  },
+  {
+    "user": {
+      "$oid": "6821e8616b38cc3dbbdaf148"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330762"
+        },
+        "quantity": 2,
+        "price": 280
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330743"
+        },
+        "quantity": 1,
+        "price": 2000
+      }
+    ],
+    "total": 2560,
+    "status": "PENDING",
+    "createdAt": {
+      "$date": "2025-04-20T15:57:18.499159"
+    },
+    "updatedAt": {
+      "$date": "2025-04-24T15:57:18.499159"
+    }
+  },
+  {
+    "user": {
+      "$oid": "6821cc96c73ec22edfa5b414"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330742"
+        },
+        "quantity": 2,
+        "price": 5885
+      }
+    ],
+    "total": 11770,
+    "status": "PENDING",
+    "createdAt": {
+      "$date": "2025-04-17T15:57:18.499187"
+    },
+    "updatedAt": {
+      "$date": "2025-04-19T15:57:18.499187"
+    }
+  },
+  {
+    "user": {
+      "$oid": "6821baefc73ec22edfa5b2ee"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33072b"
+        },
+        "quantity": 3,
+        "price": 500
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33074c"
+        },
+        "quantity": 2,
+        "price": 900
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33076d"
+        },
+        "quantity": 3,
+        "price": 410
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33075f"
+        },
+        "quantity": 3,
+        "price": 400
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330769"
+        },
+        "quantity": 2,
+        "price": 360
+      }
+    ],
+    "total": 6450,
+    "status": "PENDING",
+    "createdAt": {
+      "$date": "2025-05-09T15:57:18.499230"
+    },
+    "updatedAt": {
+      "$date": "2025-05-10T15:57:18.499230"
+    }
+  },
+  {
+    "user": {
+      "$oid": "6821cc96c73ec22edfa5b414"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330791"
+        },
+        "quantity": 2,
+        "price": 560
+      }
+    ],
+    "total": 1120,
+    "status": "CANCELLED",
+    "createdAt": {
+      "$date": "2025-05-13T15:57:18.499257"
+    },
+    "updatedAt": {
+      "$date": "2025-05-13T15:57:18.499257"
+    }
+  },
+  {
+    "user": {
+      "$oid": "6821cc96c73ec22edfa5b414"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330794"
+        },
+        "quantity": 2,
+        "price": 620
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330735"
+        },
+        "quantity": 1,
+        "price": 3885
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330731"
+        },
+        "quantity": 3,
+        "price": 450
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33072b"
+        },
+        "quantity": 2,
+        "price": 500
+      }
+    ],
+    "total": 7475,
+    "status": "COMPLETED",
+    "createdAt": {
+      "$date": "2025-04-26T15:57:18.499299"
+    },
+    "updatedAt": {
+      "$date": "2025-04-27T15:57:18.499299"
+    }
+  },
+  {
+    "user": {
+      "$oid": "6821baefc73ec22edfa5b2ee"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330771"
+        },
+        "quantity": 2,
+        "price": 490
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b3307a8"
+        },
+        "quantity": 2,
+        "price": 600
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330752"
+        },
+        "quantity": 1,
+        "price": 1200
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330787"
+        },
+        "quantity": 1,
+        "price": 340
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330745"
+        },
+        "quantity": 2,
+        "price": 2680
+      }
+    ],
+    "total": 9080,
+    "status": "COMPLETED",
+    "createdAt": {
+      "$date": "2025-05-05T15:57:18.499341"
+    },
+    "updatedAt": {
+      "$date": "2025-05-06T15:57:18.499341"
+    }
+  },
+  {
+    "user": {
+      "$oid": "6821e8616b38cc3dbbdaf148"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330783"
+        },
+        "quantity": 3,
+        "price": 350
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330761"
+        },
+        "quantity": 1,
+        "price": 500
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330764"
+        },
+        "quantity": 1,
+        "price": 480
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330766"
+        },
+        "quantity": 2,
+        "price": 310
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330787"
+        },
+        "quantity": 3,
+        "price": 340
+      }
+    ],
+    "total": 3670,
+    "status": "COMPLETED",
+    "createdAt": {
+      "$date": "2025-05-01T15:57:18.499382"
+    },
+    "updatedAt": {
+      "$date": "2025-05-02T15:57:18.499382"
+    }
+  },
+  {
+    "user": {
+      "$oid": "6821bb0cc73ec22edfa5b2f5"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330795"
+        },
+        "quantity": 3,
+        "price": 330
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330731"
+        },
+        "quantity": 3,
+        "price": 450
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33074b"
+        },
+        "quantity": 3,
+        "price": 1000
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33079f"
+        },
+        "quantity": 2,
+        "price": 630
+      }
+    ],
+    "total": 6600,
+    "status": "CANCELLED",
+    "createdAt": {
+      "$date": "2025-04-23T15:57:18.499417"
+    },
+    "updatedAt": {
+      "$date": "2025-04-26T15:57:18.499417"
+    }
+  },
+  {
+    "user": {
+      "$oid": "6821baefc73ec22edfa5b2ee"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330735"
+        },
+        "quantity": 1,
+        "price": 3885
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330747"
+        },
+        "quantity": 3,
+        "price": 5285
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b3307a7"
+        },
+        "quantity": 1,
+        "price": 580
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33077a"
+        },
+        "quantity": 2,
+        "price": 1280
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330793"
+        },
+        "quantity": 1,
+        "price": 520
+      }
+    ],
+    "total": 23400,
+    "status": "COMPLETED",
+    "createdAt": {
+      "$date": "2025-05-04T15:57:18.499465"
+    },
+    "updatedAt": {
+      "$date": "2025-05-09T15:57:18.499465"
+    }
+  },
+  {
+    "user": {
+      "$oid": "6821e8616b38cc3dbbdaf148"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33075b"
+        },
+        "quantity": 2,
+        "price": 250
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33074a"
+        },
+        "quantity": 2,
+        "price": 4000
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330771"
+        },
+        "quantity": 2,
+        "price": 490
+      }
+    ],
+    "total": 9480,
+    "status": "PENDING",
+    "createdAt": {
+      "$date": "2025-05-14T15:57:18.499499"
+    },
+    "updatedAt": {
+      "$date": "2025-05-18T15:57:18.499499"
+    }
+  },
+  {
+    "user": {
+      "$oid": "681f7bb7ec10bbb41abb5878"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330751"
+        },
+        "quantity": 3,
+        "price": 750
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33079e"
+        },
+        "quantity": 2,
+        "price": 530
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330768"
+        },
+        "quantity": 3,
+        "price": 590
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330789"
+        },
+        "quantity": 2,
+        "price": 610
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b3307a5"
+        },
+        "quantity": 3,
+        "price": 460
+      }
+    ],
+    "total": 7680,
+    "status": "COMPLETED",
+    "createdAt": {
+      "$date": "2025-04-16T15:57:18.499618"
+    },
+    "updatedAt": {
+      "$date": "2025-04-16T15:57:18.499618"
+    }
+  },
+  {
+    "user": {
+      "$oid": "6821baefc73ec22edfa5b2ee"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330799"
+        },
+        "quantity": 3,
+        "price": 370
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b3307a4"
+        },
+        "quantity": 1,
+        "price": 380
+      }
+    ],
+    "total": 1490,
+    "status": "COMPLETED",
+    "createdAt": {
+      "$date": "2025-04-28T15:57:18.499662"
+    },
+    "updatedAt": {
+      "$date": "2025-05-03T15:57:18.499662"
+    }
+  },
+  {
+    "user": {
+      "$oid": "6821cc96c73ec22edfa5b414"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330775"
+        },
+        "quantity": 1,
+        "price": 460
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330778"
+        },
+        "quantity": 1,
+        "price": 2340
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33073a"
+        },
+        "quantity": 3,
+        "price": 3000
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33074e"
+        },
+        "quantity": 2,
+        "price": 1500
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330760"
+        },
+        "quantity": 2,
+        "price": 650
+      }
+    ],
+    "total": 16100,
+    "status": "CANCELLED",
+    "createdAt": {
+      "$date": "2025-04-22T15:57:18.499704"
+    },
+    "updatedAt": {
+      "$date": "2025-04-26T15:57:18.499704"
+    }
+  },
+  {
+    "user": {
+      "$oid": "6821baefc73ec22edfa5b2ee"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330765"
+        },
+        "quantity": 1,
+        "price": 580
+      }
+    ],
+    "total": 580,
+    "status": "COMPLETED",
+    "createdAt": {
+      "$date": "2025-04-27T15:57:18.499735"
+    },
+    "updatedAt": {
+      "$date": "2025-04-28T15:57:18.499735"
+    }
+  },
+  {
+    "user": {
+      "$oid": "6821e8616b38cc3dbbdaf148"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330747"
+        },
+        "quantity": 2,
+        "price": 5285
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33072e"
+        },
+        "quantity": 2,
+        "price": 200
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33079e"
+        },
+        "quantity": 3,
+        "price": 530
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330772"
+        },
+        "quantity": 3,
+        "price": 590
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33074d"
+        },
+        "quantity": 2,
+        "price": 800
+      }
+    ],
+    "total": 15930,
+    "status": "COMPLETED",
+    "createdAt": {
+      "$date": "2025-05-12T15:57:18.499777"
+    },
+    "updatedAt": {
+      "$date": "2025-05-15T15:57:18.499777"
+    }
+  },
+  {
+    "user": {
+      "$oid": "681f7bb7ec10bbb41abb5878"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33078a"
+        },
+        "quantity": 2,
+        "price": 320
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33077e"
+        },
+        "quantity": 3,
+        "price": 2600
+      }
+    ],
+    "total": 8440,
+    "status": "PENDING",
+    "createdAt": {
+      "$date": "2025-04-19T15:57:18.499825"
+    },
+    "updatedAt": {
+      "$date": "2025-04-19T15:57:18.499825"
+    }
+  },
+  {
+    "user": {
+      "$oid": "6821cc96c73ec22edfa5b414"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330782"
+        },
+        "quantity": 2,
+        "price": 530
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330767"
+        },
+        "quantity": 3,
+        "price": 490
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330791"
+        },
+        "quantity": 1,
+        "price": 560
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330738"
+        },
+        "quantity": 1,
+        "price": 1885
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330789"
+        },
+        "quantity": 1,
+        "price": 610
+      }
+    ],
+    "total": 5585,
+    "status": "PENDING",
+    "createdAt": {
+      "$date": "2025-05-02T15:57:18.499866"
+    },
+    "updatedAt": {
+      "$date": "2025-05-06T15:57:18.499866"
+    }
+  },
+  {
+    "user": {
+      "$oid": "6821e8616b38cc3dbbdaf148"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330747"
+        },
+        "quantity": 3,
+        "price": 5285
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330776"
+        },
+        "quantity": 1,
+        "price": 1460
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330792"
+        },
+        "quantity": 1,
+        "price": 350
+      }
+    ],
+    "total": 17665,
+    "status": "CANCELLED",
+    "createdAt": {
+      "$date": "2025-04-18T15:57:18.499903"
+    },
+    "updatedAt": {
+      "$date": "2025-04-22T15:57:18.499903"
+    }
+  },
+  {
+    "user": {
+      "$oid": "681f7bb7ec10bbb41abb5878"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330749"
+        },
+        "quantity": 2,
+        "price": 2185
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33077f"
+        },
+        "quantity": 3,
+        "price": 1310
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330746"
+        },
+        "quantity": 2,
+        "price": 5450
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330741"
+        },
+        "quantity": 2,
+        "price": 4585
+      }
+    ],
+    "total": 28370,
+    "status": "COMPLETED",
+    "createdAt": {
+      "$date": "2025-05-13T15:57:18.499942"
+    },
+    "updatedAt": {
+      "$date": "2025-05-18T15:57:18.499942"
+    }
+  },
+  {
+    "user": {
+      "$oid": "6821e8616b38cc3dbbdaf148"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330746"
+        },
+        "quantity": 2,
+        "price": 5450
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330736"
+        },
+        "quantity": 1,
+        "price": 4985
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330765"
+        },
+        "quantity": 1,
+        "price": 580
+      }
+    ],
+    "total": 16465,
+    "status": "COMPLETED",
+    "createdAt": {
+      "$date": "2025-04-22T15:57:18.499976"
+    },
+    "updatedAt": {
+      "$date": "2025-04-22T15:57:18.499976"
+    }
+  },
+  {
+    "user": {
+      "$oid": "6821baefc73ec22edfa5b2ee"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33072f"
+        },
+        "quantity": 2,
+        "price": 550
+      }
+    ],
+    "total": 1100,
+    "status": "PENDING",
+    "createdAt": {
+      "$date": "2025-04-20T15:57:18.500004"
+    },
+    "updatedAt": {
+      "$date": "2025-04-20T15:57:18.500004"
+    }
+  },
+  {
+    "user": {
+      "$oid": "6821baefc73ec22edfa5b2ee"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330796"
+        },
+        "quantity": 3,
+        "price": 400
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330740"
+        },
+        "quantity": 1,
+        "price": 5000
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330754"
+        },
+        "quantity": 2,
+        "price": 1000
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330798"
+        },
+        "quantity": 3,
+        "price": 550
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33073f"
+        },
+        "quantity": 2,
+        "price": 5800
+      }
+    ],
+    "total": 21450,
+    "status": "CANCELLED",
+    "createdAt": {
+      "$date": "2025-05-04T15:57:18.500047"
+    },
+    "updatedAt": {
+      "$date": "2025-05-09T15:57:18.500047"
+    }
+  },
+  {
+    "user": {
+      "$oid": "6821baefc73ec22edfa5b2ee"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33075e"
+        },
+        "quantity": 3,
+        "price": 350
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330731"
+        },
+        "quantity": 1,
+        "price": 450
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330779"
+        },
+        "quantity": 3,
+        "price": 2420
+      }
+    ],
+    "total": 8760,
+    "status": "COMPLETED",
+    "createdAt": {
+      "$date": "2025-04-24T15:57:18.500081"
+    },
+    "updatedAt": {
+      "$date": "2025-04-26T15:57:18.500081"
+    }
+  },
+  {
+    "user": {
+      "$oid": "6821cc96c73ec22edfa5b414"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330792"
+        },
+        "quantity": 2,
+        "price": 350
+      }
+    ],
+    "total": 700,
+    "status": "COMPLETED",
+    "createdAt": {
+      "$date": "2025-05-12T15:57:18.500110"
+    },
+    "updatedAt": {
+      "$date": "2025-05-15T15:57:18.500110"
+    }
+  },
+  {
+    "user": {
+      "$oid": "6821cc96c73ec22edfa5b414"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330740"
+        },
+        "quantity": 3,
+        "price": 5000
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330792"
+        },
+        "quantity": 1,
+        "price": 350
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33075c"
+        },
+        "quantity": 1,
+        "price": 550
+      }
+    ],
+    "total": 15900,
+    "status": "CANCELLED",
+    "createdAt": {
+      "$date": "2025-05-07T15:57:18.500158"
+    },
+    "updatedAt": {
+      "$date": "2025-05-09T15:57:18.500158"
+    }
+  },
+  {
+    "user": {
+      "$oid": "6821e8616b38cc3dbbdaf148"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330788"
+        },
+        "quantity": 1,
+        "price": 510
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330772"
+        },
+        "quantity": 2,
+        "price": 590
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330774"
+        },
+        "quantity": 3,
+        "price": 370
+      }
+    ],
+    "total": 2800,
+    "status": "CANCELLED",
+    "createdAt": {
+      "$date": "2025-04-22T15:57:18.500191"
+    },
+    "updatedAt": {
+      "$date": "2025-04-23T15:57:18.500191"
+    }
+  },
+  {
+    "user": {
+      "$oid": "6821e8616b38cc3dbbdaf148"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330787"
+        },
+        "quantity": 3,
+        "price": 340
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33079f"
+        },
+        "quantity": 3,
+        "price": 630
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b3307a9"
+        },
+        "quantity": 3,
+        "price": 750
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330737"
+        },
+        "quantity": 3,
+        "price": 2880
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330778"
+        },
+        "quantity": 1,
+        "price": 2340
+      }
+    ],
+    "total": 16140,
+    "status": "PENDING",
+    "createdAt": {
+      "$date": "2025-05-06T15:57:18.500231"
+    },
+    "updatedAt": {
+      "$date": "2025-05-11T15:57:18.500231"
+    }
+  },
+  {
+    "user": {
+      "$oid": "6821cc96c73ec22edfa5b414"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33077f"
+        },
+        "quantity": 1,
+        "price": 1310
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330782"
+        },
+        "quantity": 1,
+        "price": 530
+      }
+    ],
+    "total": 1840,
+    "status": "PENDING",
+    "createdAt": {
+      "$date": "2025-05-04T15:57:18.500261"
+    },
+    "updatedAt": {
+      "$date": "2025-05-09T15:57:18.500261"
+    }
+  },
+  {
+    "user": {
+      "$oid": "681f7bb7ec10bbb41abb5878"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330758"
+        },
+        "quantity": 3,
+        "price": 600
+      }
+    ],
+    "total": 1800,
+    "status": "CANCELLED",
+    "createdAt": {
+      "$date": "2025-04-21T15:57:18.500292"
+    },
+    "updatedAt": {
+      "$date": "2025-04-25T15:57:18.500292"
+    }
+  },
+  {
+    "user": {
+      "$oid": "6821bb0cc73ec22edfa5b2f5"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33079d"
+        },
+        "quantity": 1,
+        "price": 360
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b3307ad"
+        },
+        "quantity": 2,
+        "price": 920
+      }
+    ],
+    "total": 2200,
+    "status": "PENDING",
+    "createdAt": {
+      "$date": "2025-04-24T15:57:18.500324"
+    },
+    "updatedAt": {
+      "$date": "2025-04-26T15:57:18.500324"
+    }
+  },
+  {
+    "user": {
+      "$oid": "681f7bb7ec10bbb41abb5878"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33075e"
+        },
+        "quantity": 3,
+        "price": 350
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330768"
+        },
+        "quantity": 1,
+        "price": 590
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330769"
+        },
+        "quantity": 3,
+        "price": 360
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33078b"
+        },
+        "quantity": 1,
+        "price": 390
+      }
+    ],
+    "total": 3110,
+    "status": "PENDING",
+    "createdAt": {
+      "$date": "2025-04-21T15:57:18.500363"
+    },
+    "updatedAt": {
+      "$date": "2025-04-21T15:57:18.500363"
+    }
+  },
+  {
+    "user": {
+      "$oid": "6821e8616b38cc3dbbdaf148"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33077a"
+        },
+        "quantity": 1,
+        "price": 1280
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330755"
+        },
+        "quantity": 3,
+        "price": 850
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33078e"
+        },
+        "quantity": 3,
+        "price": 360
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330741"
+        },
+        "quantity": 1,
+        "price": 4585
+      }
+    ],
+    "total": 9495,
+    "status": "PENDING",
+    "createdAt": {
+      "$date": "2025-05-13T15:57:18.500400"
+    },
+    "updatedAt": {
+      "$date": "2025-05-16T15:57:18.500400"
+    }
+  },
+  {
+    "user": {
+      "$oid": "681f7bb7ec10bbb41abb5878"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330740"
+        },
+        "quantity": 3,
+        "price": 5000
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330782"
+        },
+        "quantity": 3,
+        "price": 530
+      }
+    ],
+    "total": 16590,
+    "status": "PENDING",
+    "createdAt": {
+      "$date": "2025-04-18T15:57:18.500431"
+    },
+    "updatedAt": {
+      "$date": "2025-04-22T15:57:18.500431"
+    }
+  },
+  {
+    "user": {
+      "$oid": "6821cc96c73ec22edfa5b414"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33074d"
+        },
+        "quantity": 1,
+        "price": 800
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b3307a6"
+        },
+        "quantity": 2,
+        "price": 320
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330755"
+        },
+        "quantity": 2,
+        "price": 850
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330730"
+        },
+        "quantity": 2,
+        "price": 35
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b3307af"
+        },
+        "quantity": 2,
+        "price": 710
+      }
+    ],
+    "total": 4630,
+    "status": "CANCELLED",
+    "createdAt": {
+      "$date": "2025-05-02T15:57:18.500470"
+    },
+    "updatedAt": {
+      "$date": "2025-05-04T15:57:18.500470"
+    }
+  },
+  {
+    "user": {
+      "$oid": "681f7bb7ec10bbb41abb5878"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33078e"
+        },
+        "quantity": 1,
+        "price": 360
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330775"
+        },
+        "quantity": 1,
+        "price": 460
+      }
+    ],
+    "total": 820,
+    "status": "COMPLETED",
+    "createdAt": {
+      "$date": "2025-05-07T15:57:18.500501"
+    },
+    "updatedAt": {
+      "$date": "2025-05-07T15:57:18.500501"
+    }
+  },
+  {
+    "user": {
+      "$oid": "681f7bb7ec10bbb41abb5878"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33076d"
+        },
+        "quantity": 3,
+        "price": 410
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b3307a2"
+        },
+        "quantity": 2,
+        "price": 500
+      }
+    ],
+    "total": 2230,
+    "status": "PENDING",
+    "createdAt": {
+      "$date": "2025-05-04T15:57:18.500532"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T15:57:18.500532"
+    }
+  },
+  {
+    "user": {
+      "$oid": "6821baefc73ec22edfa5b2ee"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33073d"
+        },
+        "quantity": 2,
+        "price": 1085
+      }
+    ],
+    "total": 2170,
+    "status": "COMPLETED",
+    "createdAt": {
+      "$date": "2025-04-20T15:57:18.500564"
+    },
+    "updatedAt": {
+      "$date": "2025-04-22T15:57:18.500564"
+    }
+  },
+  {
+    "user": {
+      "$oid": "6821cc96c73ec22edfa5b414"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330798"
+        },
+        "quantity": 2,
+        "price": 550
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33077d"
+        },
+        "quantity": 3,
+        "price": 1500
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33074a"
+        },
+        "quantity": 1,
+        "price": 4000
+      }
+    ],
+    "total": 9600,
+    "status": "PENDING",
+    "createdAt": {
+      "$date": "2025-05-09T15:57:18.500614"
+    },
+    "updatedAt": {
+      "$date": "2025-05-14T15:57:18.500614"
+    }
+  },
+  {
+    "user": {
+      "$oid": "6821baefc73ec22edfa5b2ee"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330790"
+        },
+        "quantity": 1,
+        "price": 300
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33078c"
+        },
+        "quantity": 3,
+        "price": 480
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33072a"
+        },
+        "quantity": 1,
+        "price": 1000
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33076a"
+        },
+        "quantity": 3,
+        "price": 450
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b3307a0"
+        },
+        "quantity": 3,
+        "price": 340
+      }
+    ],
+    "total": 5110,
+    "status": "COMPLETED",
+    "createdAt": {
+      "$date": "2025-04-23T15:57:18.500654"
+    },
+    "updatedAt": {
+      "$date": "2025-04-27T15:57:18.500654"
+    }
+  },
+  {
+    "user": {
+      "$oid": "6821e8616b38cc3dbbdaf148"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33077e"
+        },
+        "quantity": 3,
+        "price": 2600
+      }
+    ],
+    "total": 7800,
+    "status": "PENDING",
+    "createdAt": {
+      "$date": "2025-05-14T15:57:18.500683"
+    },
+    "updatedAt": {
+      "$date": "2025-05-14T15:57:18.500683"
+    }
+  },
+  {
+    "user": {
+      "$oid": "6821baefc73ec22edfa5b2ee"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33079c"
+        },
+        "quantity": 1,
+        "price": 570
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330756"
+        },
+        "quantity": 2,
+        "price": 920
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330786"
+        },
+        "quantity": 1,
+        "price": 550
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330771"
+        },
+        "quantity": 2,
+        "price": 490
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330753"
+        },
+        "quantity": 3,
+        "price": 900
+      }
+    ],
+    "total": 6640,
+    "status": "CANCELLED",
+    "createdAt": {
+      "$date": "2025-05-11T15:57:18.500730"
+    },
+    "updatedAt": {
+      "$date": "2025-05-11T15:57:18.500730"
+    }
+  },
+  {
+    "user": {
+      "$oid": "6821baefc73ec22edfa5b2ee"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330746"
+        },
+        "quantity": 2,
+        "price": 5450
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330771"
+        },
+        "quantity": 3,
+        "price": 490
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330738"
+        },
+        "quantity": 1,
+        "price": 1885
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33074e"
+        },
+        "quantity": 1,
+        "price": 1500
+      }
+    ],
+    "total": 15755,
+    "status": "COMPLETED",
+    "createdAt": {
+      "$date": "2025-04-15T15:57:18.500769"
+    },
+    "updatedAt": {
+      "$date": "2025-04-16T15:57:18.500769"
+    }
+  },
+  {
+    "user": {
+      "$oid": "681f7bb7ec10bbb41abb5878"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330766"
+        },
+        "quantity": 3,
+        "price": 310
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b33076c"
+        },
+        "quantity": 2,
+        "price": 330
+      },
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330761"
+        },
+        "quantity": 2,
+        "price": 500
+      }
+    ],
+    "total": 2590,
+    "status": "PENDING",
+    "createdAt": {
+      "$date": "2025-04-29T15:57:18.500820"
+    },
+    "updatedAt": {
+      "$date": "2025-05-04T15:57:18.500820"
+    }
+  },
+  {
+    "user": {
+      "$oid": "681f7bb7ec10bbb41abb5878"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b330759"
+        },
+        "quantity": 2,
+        "price": 450
+      }
+    ],
+    "total": 900,
+    "status": "COMPLETED",
+    "createdAt": {
+      "$date": "2025-05-05T15:57:18.500855"
+    },
+    "updatedAt": {
+      "$date": "2025-05-05T15:57:18.500855"
+    }
+  },
+  {
+    "user": {
+      "$oid": "681f7bb7ec10bbb41abb5878"
+    },
+    "products": [
+      {
+        "product": {
+          "$oid": "6825ddfd60b1f3848b3307a4"
+        },
+        "quantity": 3,
+        "price": 380
+      }
+    ],
+    "total": 1140,
+    "status": "CANCELLED",
+    "createdAt": {
+      "$date": "2025-04-16T15:57:18.500882"
+    },
+    "updatedAt": {
+      "$date": "2025-04-18T15:57:18.500882"
+    }
+  }
+]
