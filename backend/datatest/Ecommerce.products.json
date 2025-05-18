@@ -1744,7 +1744,7 @@
       "$oid": "6825ddfd60b1f3848b330780"
     },
     "name": "Black PC Case.",
-    "category": "case",
+    "category": { "$oid": "68299860af188f8c63319dd2" },
     "photo": "/uploads/product/product_91.png",
     "price": 380,
     "brand": "Generic",
@@ -1762,7 +1762,7 @@
       "$oid": "6825ddfd60b1f3848b330781"
     },
     "name": "White PC Case with Glass Panel and RGB.",
-    "category": "case",
+    "category": { "$oid": "68299860af188f8c63319dd2" },
     "photo": "/uploads/product/product_92.png",
     "price": 470,
     "brand": "Generic",
@@ -1780,7 +1780,7 @@
       "$oid": "6825ddfd60b1f3848b330782"
     },
     "name": "Black PC Case with Glass Panel and RGB.",
-    "category": "case",
+    "category": { "$oid": "68299860af188f8c63319dd2" },
     "photo": "/uploads/product/product_93.png",
     "price": 530,
     "brand": "Generic",
@@ -1798,7 +1798,7 @@
       "$oid": "6825ddfd60b1f3848b330783"
     },
     "name": "Compact Black PC Case with Glass Panel.",
-    "category": "case",
+    "category": { "$oid": "68299860af188f8c63319dd2" },
     "photo": "/uploads/product/product_94.png",
     "price": 350,
     "brand": "Generic",
@@ -1816,7 +1816,7 @@
       "$oid": "6825ddfd60b1f3848b330784"
     },
     "name": "White PC Case with Glass Panel and RGB.",
-    "category": "case",
+    "category": { "$oid": "68299860af188f8c63319dd2" },
     "photo": "/uploads/product/product_95.png",
     "price": 430,
     "brand": "Generic",
@@ -1834,7 +1834,7 @@
       "$oid": "6825ddfd60b1f3848b330785"
     },
     "name": "Black PC Case with Glass Panel and RGB.",
-    "category": "case",
+    "category": { "$oid": "68299860af188f8c63319dd2" },
     "photo": "/uploads/product/product_96.png",
     "price": 290,
     "brand": "Generic",
@@ -1852,7 +1852,7 @@
       "$oid": "6825ddfd60b1f3848b330786"
     },
     "name": "White PC Case with Glass Panel and RGB.",
-    "category": "case",
+    "category": { "$oid": "68299860af188f8c63319dd2" },
     "photo": "/uploads/product/product_97.png",
     "price": 550,
     "brand": "Generic",
@@ -1870,7 +1870,7 @@
       "$oid": "6825ddfd60b1f3848b330787"
     },
     "name": "Black PC Case with Glass Panel and RGB.",
-    "category": "case",
+    "category": { "$oid": "68299860af188f8c63319dd2" },
     "photo": "/uploads/product/product_98.png",
     "price": 340,
     "brand": "Generic",
@@ -1888,7 +1888,7 @@
       "$oid": "6825ddfd60b1f3848b330788"
     },
     "name": "CPU Air Cooler Box.",
-    "category": "case",
+    "category": { "$oid": "68299860af188f8c63319dd2" },
     "photo": "/uploads/product/product_99.png",
     "price": 510,
     "brand": "Generic",
@@ -1906,7 +1906,7 @@
       "$oid": "6825ddfd60b1f3848b330789"
     },
     "name": "CPU Air Cooler.",
-    "category": "case",
+    "category": { "$oid": "68299860af188f8c63319dd2" },
     "photo": "/uploads/product/product_100.png",
     "price": 610,
     "brand": "Generic",
@@ -2678,26 +2678,5 @@
       "$date": "2025-05-12T15:38:09.000Z"
     },
     "rating": 1.5
-  },
-  {
-    "_id": {
-      "$oid": "682735169a72cd6015fea69f"
-    },
-    "name": "a",
-    "brand": "NVIDIA",
-    "description": "a",
-    "category": {
-      "$oid": "682616b6a1abdde7732d982d"
-    },
-    "quantity": 1,
-    "price": 11,
-    "barcode": "a",
-    "photo": "",
-    "state": "ACTIVE",
-    "rating": 0,
-    "createdAt": {
-      "$date": "2025-05-16T12:52:38.391Z"
-    },
-    "__v": 0
   }
 ]
